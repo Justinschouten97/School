@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0.1px solid;
+}
+
+
+
+body
+{
+    /*
+    border: 1px solid;
+     */
+}
+
+#k1
+{
+ background-color: #FE0000;
+}
+#k2
+{
+    background-color: #FF9C00;
+}
+#k3
+{
+    background-color: #F5FF00;
+}
+#k4
+{
+    background-color: #3CF10E;
+}
+#k5
+{
+    background-color: #01FFE5;
+}
+#k6
+{
+    background-color: #0024FF;
+}
+#k7
+{
+    background-color: #C500FF;
+}
+#k8
+{
+    background-color: #FF009C;
+}
+
