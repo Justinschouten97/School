@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    border: 1px solid;
+}
+
+#r10
+{
+    background-color: rgba(255,0,0, 1.0);
+}
+#r9
+{
+    background-color: rgba(255,0,0, 0.9);
+}
+#r8
+{
+    background-color: rgba(255,0,0, 0.8);
+}
+#r7
+{
+    background-color: rgba(255,0,0, 0.7);
+}
+#r6
+{
+    background-color: rgba(255,0,0, 0.6);
+}
+#r5
+{
+    background-color: rgba(255,0,0, 0.5);
+}
+#r4
+{
+    background-color: rgba(255,0,0, 0.4);
+}
+#r3
+{
+    background-color: rgba(255,0,0, 0.3);
+}
+#r2
+{
+    background-color: rgba(255,0,0, 0.2);
+}
+#r1
+{
+    background-color: rgba(255,0,0, 0.1);
+}
+#r0
+{
+    background-color: rgba(255,0,0, 0.0);
+}
