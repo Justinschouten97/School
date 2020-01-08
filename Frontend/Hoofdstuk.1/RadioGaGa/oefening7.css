@@ -1,3 +1,221 @@
-body {
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 
+body
+{
+    border: 1px solid;
+}
+
+#kopTitel
+{
+    background-color: white;
+    width: 100%;
+}
+
+#A
+{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+#B
+{
+    background-color: red;
+    width: 100%;
+}
+#C
+{
+    background-color: green;
+    width: 100%;
+}
+#D
+{
+    background-color: blue;
+    width: 100%;
+}
+#E
+{
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
+
+/*
+KopTitel
+ */
+#k1
+{
+    float: left;
+    margin-right: 10px;
+}
+#k2
+{
+    float: left;
+    margin-right: 10px;
+
+}
+#k3
+{
+    float: left;
+    margin-right: 10px;
+}
+#k4
+{
+    float: left;
+    margin-right: 10px;
+}
+#k5
+{
+    float: end;
+    margin-right: 10px;
+}
+
+/*
+rij 1
+ */
+#A1
+{
+    float: left;
+    margin-right: 5px;
+}
+#A2
+{
+    float: left;
+    margin-right: 5px;
+
+}
+#A3
+{
+    float: left;
+    margin-right: 5px;
+}
+#A4
+{
+    float: left;
+    margin-right: 5px;
+}
+#A5
+{
+    float: end;
+    margin-right: 5px;
+}
+/*
+rij 2
+ */
+#B1
+{
+    float: left;
+    margin-right: 5px;
+}
+#B2
+{
+    float: left;
+    margin-right: 5px;
+
+}
+#B3
+{
+    float: left;
+    margin-right: 5px;
+}
+#B4
+{
+    float: left;
+    margin-right: 5px;
+}
+#B5
+{
+    float: outside;
+    margin-right: 5px;
+}
+/*
+rij 3
+ */
+#C1
+{
+    float: left;
+    margin-right: 5px;
+}
+#C2
+{
+    float: left;
+    margin-right: 5px;
+
+}
+#C3
+{
+    float: left;
+    margin-right: 5px;
+}
+#C4
+{
+    float: left;
+    margin-right: 5px;
+}
+#C5
+{
+    float: outside;
+    margin-right: 5px;
+}
+/*
+rij 4
+ */
+#D1
+{
+    float: left;
+    margin-right: 5px;
+}
+#D2
+{
+    float: left;
+    margin-right: 5px;
+
+}
+#D3
+{
+    float: left;
+    margin-right: 5px;
+}
+#D4
+{
+    float: left;
+    margin-right: 5px;
+}
+#D5
+{
+    float: outside;
+    margin-right: 5px;
+}
+/*
+rij 5
+ */
+#E1
+{
+    float: left;
+    margin-right: 5px;
+}
+#E2
+{
+    float: left;
+    margin-right: 5px;
+
+}
+#E3
+{
+    float: left;
+    margin-right: 5px;
+}
+#E4
+{
+    float: left;
+    margin-right: 5px;
+}
+#E5
+{
+    float: outside;
+    margin-right: 5px;
 }
