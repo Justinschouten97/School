@@ -1,38 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     text-align: center;
+    justify-content: space-evenly;
 }
 
 #Div1 {
-    width: 80%;
-    height: 80px;
-    font-size: 20px;
-    margin: auto;
-    margin-top: 3%;
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    margin-top: 0%;
     margin-bottom: 3%;
     box-shadow: 1px 1px 10px black;
+
+    background-color: darkgreen;
 }
 #Div2 {
     width: 80%;
     height: 220px;
     font-size: 15px;
-    margin-left: 5%;
-    margin-bottom: 3%;
+    margin: 0 auto;
+
+    background-color: darkolivegreen;
 }
 #Div3 {
     width: 80%;
     height: 150px;
-    margin-left: 3%;
+    font-size: 18px;
+    margin: 5% auto;
+
+    background-color: rgba(0,255,0, 0.6);
 }
 
 #Div4 {
     width: 80%;
-    height: 100px;
-    margin: 0 auto;
+    height: 50%;
+    margin: 10% auto;
+    font-size: 20px;
 
-    /*
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-
-     */
+    color: red;
+    background-color: yellowgreen;
 }
