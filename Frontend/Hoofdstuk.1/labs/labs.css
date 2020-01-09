@@ -6,42 +6,70 @@
 
 body {
     text-align: center;
-    justify-content: space-evenly;
+
+}
+body :hover
+{
+    margin-left: 10%
+
 }
 
 #Div1 {
     width: 100%;
     height: 20px;
-    font-size: 12px;
     margin-top: 0%;
     margin-bottom: 3%;
+
     box-shadow: 1px 1px 10px black;
 
     background-color: darkgreen;
+    font-size: 12px;
 }
 #Div2 {
     width: 80%;
     height: 220px;
-    font-size: 15px;
     margin: 0 auto;
 
+    position: center;
+    top: 0;
+    left: 0;
+
     background-color: darkolivegreen;
+    font-size: 15px;
+
 }
 #Div3 {
     width: 80%;
     height: 150px;
-    font-size: 18px;
-    margin: 5% auto;
+    top: 10%;
+    bottom: 25%;
+    margin: 0 auto;
+    position: relative;
+
 
     background-color: rgba(0,255,0, 0.6);
+    font-size: 18px;
+
 }
 
 #Div4 {
     width: 80%;
     height: 50%;
-    margin: 10% auto;
-    font-size: 20px;
+
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
 
     color: red;
     background-color: yellowgreen;
+    font-size: 20px;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+}
+
+
+li {
+    list-style-type: none;
 }
