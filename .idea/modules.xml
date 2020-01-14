@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/school.iml" filepath="$PROJECT_DIR$/.idea/school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oracle/ImportDemo/ImportDemo/ImportDemo.iml" filepath="$PROJECT_DIR$/Oracle/ImportDemo/ImportDemo/ImportDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOpdrachten compleet maken(7, 10, 11)/JavaOpdrachten compleet maken(7, 10, 11).iml" filepath="$PROJECT_DIR$/JavaOpdrachten compleet maken(7, 10, 11)/JavaOpdrachten compleet maken(7, 10, 11).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oracle/4.5/MathDemo/MathDemo.iml" filepath="$PROJECT_DIR$/Oracle/4.5/MathDemo/MathDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oracle/4.5/MathEx/MathEx.iml" filepath="$PROJECT_DIR$/Oracle/4.5/MathEx/MathEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToetsJava_1_tot_12_Justin_Schouten/ToetsJava_1_tot_12_Justin_Schouten.iml" filepath="$PROJECT_DIR$/ToetsJava_1_tot_12_Justin_Schouten/ToetsJava_1_tot_12_Justin_Schouten.iml" />
     </modules>
   </component>
 </project>
