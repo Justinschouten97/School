@@ -1,0 +1,22 @@
+LambdaFilter1
+
+LCD 162 -40 Lambda04 20 false
+
+Ball 30 480 E
+
+LambdaCollectable 120 450 blue rect 1
+LambdaCollectable 330 450 blue star 2
+LambdaCollectable 540 450 red star 2
+LambdaCollectable 750 450 blue rect 3
+
+LevelGeometry 0 240 Rectangle E
+LevelGeometry 120 240 Rectangle E
+LevelGeometry 240 240 Rectangle E
+LevelGeometry 360 240 Rectangle E
+LevelGeometry 480 240 Rectangle E
+LevelGeometry 600 240 Rectangle E
+LevelGeometry 720 240 Rectangle E
+LevelGeometry 780 240 Rectangle E
+
+LevelGeometry 840 450 MedSquare S
+

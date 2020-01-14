@@ -1,0 +1,47 @@
+LambdaDirection
+LambdaFilter1
+LambdaFilter2
+
+Ball 90 60 S
+
+LambdaCollectable 420 210 blue star 1
+LambdaCollectable 210 480 blue rect 2
+LambdaCollectable 660 480 blue rect 3
+LambdaCollectable 0 150 red star 1
+LambdaCollectable 120 150 red rect 2
+
+LevelGeometry 300 240 BigRectangle E
+LevelGeometry 360 240 BigRectangle E
+LevelGeometry 420 90 BigRectangle S
+LevelGeometry 420 150 BigRectangle S
+
+LevelGeometry 120 510 BigRectangle E
+LevelGeometry 210 390 BigRectangle S
+
+LevelGeometry 570 510 BigRectangle E
+LevelGeometry 660 390 BigRectangle S
+
+LevelGeometry 0 0 BigRectangle E
+LevelGeometry 210 0 BigRectangle E
+LevelGeometry 420 0 BigRectangle E
+LevelGeometry 630 0 BigRectangle E
+LevelGeometry 840 0 MedSquare E
+LevelGeometry 0 0 BigRectangle S
+LevelGeometry 120 0 BigRectangle S
+LevelGeometry -30 210 BigRectangle S
+LevelGeometry -30 420 BigRectangle S
+LevelGeometry -30 630 BigRectangle S
+LevelGeometry 0 720 BigRectangle E
+LevelGeometry 210 720 BigRectangle E
+LevelGeometry 420 720 BigRectangle E
+LevelGeometry 630 720 BigRectangle E
+LevelGeometry 840 720 MedSquare E
+
+LevelGeometry 870 0 Rectangle S
+LevelGeometry 870 90 Rectangle S
+LevelGeometry 870 180 Rectangle S
+LevelGeometry 870 270 Rectangle S
+LevelGeometry 870 360 Rectangle S
+LevelGeometry 870 450 Rectangle S
+LevelGeometry 870 540 Rectangle S
+LevelGeometry 870 630 Rectangle S

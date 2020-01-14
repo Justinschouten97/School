@@ -1,0 +1,31 @@
+Ball 300 60 S
+
+Goal 25 630
+
+BlueBumper 210 150
+BlueBumper 720 570
+BlueBumper 210 570
+
+RedBumper 660 150
+
+LevelGeometry 360 300 MedTriangle SE
+LevelGeometry 390 270 MedTriangle SE
+LevelGeometry 330 330 MedTriangle SE
+LevelGeometry 390 330 MedTriangle NW
+
+LevelGeometry 330 390 MedTriangle NE
+LevelGeometry 390 450 MedTriangle NE
+LevelGeometry 390 390 MedTriangle SW
+
+LevelGeometry 510 270 MedTriangle SW
+LevelGeometry 570 330 MedTriangle SW
+LevelGeometry 510 330 MedTriangle NE
+
+LevelGeometry 570 390 MedTriangle NW
+LevelGeometry 510 450 MedTriangle NW
+LevelGeometry 510 390 MedTriangle SE
+
+LevelGeometry -30 690 Rectangle E
+
+No TriangleWall
+No Blade

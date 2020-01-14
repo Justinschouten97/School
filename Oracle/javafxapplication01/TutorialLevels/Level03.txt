@@ -1,0 +1,24 @@
+LCD 162 -40 Tutorial03 20 false
+Ball 60 330 E
+Goal 822 570
+
+BlueBumper 510 360
+BlueBumper 510 630
+
+LevelGeometry 780 630 Rectangle E
+LevelGeometry 780 660 Rectangle E
+LevelGeometry 780 690 Rectangle E
+
+LevelGeometry 0 240 Rectangle E
+LevelGeometry 120 240 Rectangle E
+LevelGeometry 240 240 Rectangle E
+LevelGeometry 360 240 Rectangle E
+LevelGeometry 450 240 Rectangle E
+LevelGeometry 570 240 Rectangle E
+LevelGeometry 690 240 Rectangle E
+LevelGeometry 780 240 Rectangle E
+
+No RotationWall
+No TriangleWall
+No Fan
+No Blade

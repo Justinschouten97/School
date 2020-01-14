@@ -1,0 +1,42 @@
+Copyright (c) 2014 Oracle and/or its affiliates. Oracle (r) is a registered trademark of Oracle and/or its affiliates. All rights reserved. Oracle disclaims any warranties or representations as to the accuracy or completeness of this recording, demonstration, and/or written materials (the "Materials"). The Materials are provided "as is" without any warranty of any kind, either express or implied, including without limitation warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+
+
+public class RedBumper{
+    private static Color color = Color.Red;
+    private static Shape shape = Shape.Star;
+    private static double orientation;
+    private double rotation;
+    private int xPosition;
+    private int yPosition;
+
+    public RedBumper(int x, int y){
+	xPosition = x;
+	yPosition = y;
+    }
+
+    public void A_method(){
+	SimpleWall();
+    }
+    public void B_method(){
+	RotationWall();
+    }
+    public void C_method(){
+    }
+    public void D_method(){
+	Blade();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

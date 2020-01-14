@@ -1,0 +1,27 @@
+Ball 60 180 E
+
+Goal 60 540
+
+BlueBumper 210 220
+BlueBumper 720 390
+
+RedBumper 450 150
+RedBumper 720 90
+RedBumper 450 570
+
+LevelGeometry 0 0 Rectangle S
+LevelGeometry 0 120 Rectangle S
+LevelGeometry 0 240 Rectangle S
+LevelGeometry 0 330 Rectangle S 
+LevelGeometry 30 420 BigRectangle E
+LevelGeometry 270 420 BigRectangle E
+LevelGeometry 510 420 MedSquare E
+LevelGeometry 0 600 BigSquare S
+
+LevelGeometry 780 480 BigTriangle SE
+LevelGeometry 660 600 BigTriangle SE
+LevelGeometry 780 600 BigSquare S
+
+No SimpleWall
+No RotationWall
+No Fan

@@ -1,0 +1,50 @@
+LambdaDirection
+LambdaFilter1
+LambdaFilter2
+
+Ball 300 600 S
+
+LambdaCollectable 270 60 blue star 1
+LambdaCollectable 540 60 blue rect 3
+LambdaCollectable 540 330 blue star 2
+LambdaCollectable 120 390 blue rect 1
+LambdaCollectable 330 390 blue rect 2
+LambdaCollectable 510 450 blue star 3
+
+LambdaCollectable 510 660 red rect 1
+LambdaCollectable 570 600 red rect 1
+LambdaCollectable 630 540 red rect 1
+LambdaCollectable 690 480 red rect 1
+LambdaCollectable 750 420 red rect 1
+LambdaCollectable 510 600 red rect 1
+LambdaCollectable 570 540 red rect 1
+LambdaCollectable 630 480 red rect 1
+LambdaCollectable 690 420 red rect 1
+LambdaCollectable 660 60 red rect 2
+LambdaCollectable 120 120 red star 2
+LambdaCollectable 270 240 red star 3
+LambdaCollectable 0 510 red rect 3
+
+LevelGeometry 240 510 Rectangle E
+LevelGeometry 240 690 Rectangle E
+
+LevelGeometry 780 420 BigTriangle SE
+LevelGeometry 690 510 BigTriangle SE
+LevelGeometry 810 540 BigRectangle S
+LevelGeometry 840 540 BigRectangle S
+LevelGeometry 600 600 BigTriangle SE
+LevelGeometry 720 630 BigSquare S
+
+LevelGeometry 60 60 MedTriangle NW
+LevelGeometry 60 330 MedTriangle SW
+LevelGeometry 390 330 MedTriangle SE
+LevelGeometry 210 180 MedTriangle SW
+LevelGeometry 0 180 MedTriangle NW
+
+LevelGeometry 450 60 MedTriangle NW
+LevelGeometry 450 330 MedTriangle SW
+LevelGeometry 870 330 Rectangle S
+LevelGeometry 750 60 MedTriangle NE
+LevelGeometry 600 180 MedSquare S
+
+

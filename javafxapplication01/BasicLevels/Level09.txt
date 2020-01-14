@@ -1,0 +1,35 @@
+Ball 210 600 N
+
+Goal 860 120
+
+BlueBumper 120 330
+BlueBumper 240 150
+
+RedBumper 420 570
+RedBumper 450 270
+
+LevelGeometry 0 0 BigRectangle E
+LevelGeometry 180 0 BigRectangle E
+LevelGeometry 420 0 BigRectangle E
+LevelGeometry 660 0 BigRectangle E
+LevelGeometry 120 30 Rectangle E
+LevelGeometry 360 30 Rectangle E
+LevelGeometry 600 30 Rectangle E
+LevelGeometry 0 30 Rectangle S
+LevelGeometry 0 120 Rectangle S
+LevelGeometry 30 120 Rectangle S
+LevelGeometry 0 390 Rectangle S
+
+LevelGeometry 840 180 BigRectangle S
+LevelGeometry 840 420 BigRectangle S
+LevelGeometry 750 210 BigSquare S
+LevelGeometry 750 450 BigSquare S
+LevelGeometry 750 690 Rectangle E
+LevelGeometry 840 660 MedSquare S
+LevelGeometry 810 180 Triangle SE
+LevelGeometry 810 420 Triangle SE
+LevelGeometry 810 660 Triangle SE
+
+No RotationWall
+No TriangleWall
+No Blade

@@ -1,0 +1,28 @@
+Ball 60 420 E
+
+Goal 860 30
+
+RedBumper 210 450
+RedBumper 630 450
+
+LevelGeometry 120 600 BigTriangle SW 
+LevelGeometry 240 600 BigTriangle SE 
+
+LevelGeometry 540 690 Rectangle E
+LevelGeometry 660 690 Rectangle E
+LevelGeometry 780 600 BigSquare S
+
+LevelGeometry 780 480 BigTriangle SE
+LevelGeometry 780 120 BigTriangle NE
+LevelGeometry 780 90 Rectangle E
+LevelGeometry 660 0 BigTriangle NW
+
+LevelGeometry 120 120 BigTriangle NW
+LevelGeometry 0 0 BigSquare S
+LevelGeometry 120 0 BigSquare S
+LevelGeometry 0 120 BigSquare S
+LevelGeometry 0 600 BigSquare S
+
+No TriangleWall
+No Fan
+No Blade

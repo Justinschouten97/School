@@ -1,0 +1,26 @@
+LambdaFilter1
+
+LCD 162 -40 Lambda04 20 false
+
+Ball 30 420 E
+
+LambdaCollectable 330 390 red star 1
+LambdaCollectable 330 510 red star 2
+LambdaCollectable 750 330 red star 2
+LambdaCollectable 540 450 blue rect 1
+LambdaCollectable 120 510 blue rect 2
+
+LevelGeometry 0 240 Rectangle E
+LevelGeometry 120 240 Rectangle E
+LevelGeometry 240 240 Rectangle E
+LevelGeometry 360 240 Rectangle E
+LevelGeometry 480 240 Rectangle E
+LevelGeometry 600 240 Rectangle E
+LevelGeometry 720 240 Rectangle E
+LevelGeometry 780 240 Rectangle E
+
+LevelGeometry 840 390 MedTriangle NE
+LevelGeometry 840 450 MedTriangle SE
+LevelGeometry 0 450 MedTriangle NW
+LevelGeometry 0 510 MedTriangle SW
+

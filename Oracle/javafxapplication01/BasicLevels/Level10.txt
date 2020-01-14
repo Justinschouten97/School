@@ -1,0 +1,16 @@
+Goal 370 90
+
+Ball 480 510 E
+
+RedBumper 330 540
+RedBumper 570 540
+RedBumper 60 450
+
+BlueBumper 750 420
+BlueBumper 480 300
+
+LevelGeometry 360 150 MedSquare S
+
+No SimpleWall
+No TriangleWall
+No Blade

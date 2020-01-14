@@ -1,0 +1,39 @@
+Development Team:
+    Nick Ristuccia
+    Eduardo Moranchel
+    James Hans
+
+Developed in JavaFX
+
+Special Thanks:
+    Java SE8 Fundamentals Team
+    Java SE8 New Features Team
+    Server Technologies Curriculum Developement
+    And all testers...
+
+
+
+public class BlueBumper{
+    private static Color color = Color.Blue;
+    private static Shape shape = Shape.Rect;
+    private static double orientation
+    private double rotation;
+    private int xPosition;
+    private int yPosition;
+
+    public BlueBumper(int x, int y){
+	xPosition = x;
+	yPosition = y;
+    }
+
+    public void A_method(){
+	Fan();
+    }
+    public void B_method(){
+    }
+    public void C_method(){
+	TriangleWall();
+    }
+    public void D_meathod(){
+    }
+}

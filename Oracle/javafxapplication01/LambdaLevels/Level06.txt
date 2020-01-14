@@ -1,0 +1,14 @@
+LambdaFilterOr
+
+Ball 450 90 E
+
+LambdaCollectable 150 180 blue star 1
+LambdaCollectable 570 180 blue rect 1
+
+LambdaCollectable 150 330 red star 1
+LambdaCollectable 630 330 red star 2
+
+LevelGeometry 210 60 MedTriangle NW
+LevelGeometry 210 450 MedTriangle SW
+LevelGeometry 630 60 MedTriangle NE
+LevelGeometry 630 450 MedTriangle SE

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BreakContinueDemo/BreakContinueDemo.iml" filepath="$PROJECT_DIR$/BreakContinueDemo/BreakContinueDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BreakContinueEx/BreakContinueEx.iml" filepath="$PROJECT_DIR$/BreakContinueEx/BreakContinueEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 practice/ProblemSet5_1/CheckColorRange/CheckColorRange.iml" filepath="$PROJECT_DIR$/5 practice/ProblemSet5_1/CheckColorRange/CheckColorRange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.2/ConditionalDemo/ConditionalDemo.iml" filepath="$PROJECT_DIR$/5.2/ConditionalDemo/ConditionalDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.2/ConditionalEx/ConditionalEx.iml" filepath="$PROJECT_DIR$/5.2/ConditionalEx/ConditionalEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet6_2/DisplayMultiples/DisplayMultiples.iml" filepath="$PROJECT_DIR$/ProblemSet6_2/DisplayMultiples/DisplayMultiples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoopsDemo/ForLoopsDemo.iml" filepath="$PROJECT_DIR$/ForLoopsDemo/ForLoopsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoopsEx/ForLoopsEx.iml" filepath="$PROJECT_DIR$/ForLoopsEx/ForLoopsEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.1/IfElseDemo/IfElseDemo.iml" filepath="$PROJECT_DIR$/5.1/IfElseDemo/IfElseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.1/IfElseEx/IfElseEx.iml" filepath="$PROJECT_DIR$/5.1/IfElseEx/IfElseEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImportDemo/ImportDemo/ImportDemo.iml" filepath="$PROJECT_DIR$/ImportDemo/ImportDemo/ImportDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.5/MathDemo/MathDemo.iml" filepath="$PROJECT_DIR$/4.5/MathDemo/MathDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.5/MathEx/MathEx.iml" filepath="$PROJECT_DIR$/4.5/MathEx/MathEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrisonTest_Student_7_5/PrisonTest_Student_7_5.iml" filepath="$PROJECT_DIR$/PrisonTest_Student_7_5/PrisonTest_Student_7_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrisonTest_Student_7_6/PrisonTest_Student_7_6.iml" filepath="$PROJECT_DIR$/PrisonTest_Student_7_6/PrisonTest_Student_7_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet6_3/ProblemSet6_3.iml" filepath="$PROJECT_DIR$/ProblemSet6_3/ProblemSet6_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.3/SwitchDemo/SwitchDemo.iml" filepath="$PROJECT_DIR$/5.3/SwitchDemo/SwitchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.3/SwitchEx/SwitchEx.iml" filepath="$PROJECT_DIR$/5.3/SwitchEx/SwitchEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 practice/ProblemSet5_2/TrafficLight/TrafficLight.iml" filepath="$PROJECT_DIR$/5 practice/ProblemSet5_2/TrafficLight/TrafficLight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 practice/ProblemSet5_3/TrafficLightSwitch/TrafficLightSwitch.iml" filepath="$PROJECT_DIR$/5 practice/ProblemSet5_3/TrafficLightSwitch/TrafficLightSwitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet5_3/TrafficLightSwitch/TrafficLightSwitch1.iml" filepath="$PROJECT_DIR$/ProblemSet5_3/TrafficLightSwitch/TrafficLightSwitch1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet6_1/ValidatePin/ValidatePin.iml" filepath="$PROJECT_DIR$/ProblemSet6_1/ValidatePin/ValidatePin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhileLoopDemo/WhileLoopDemo.iml" filepath="$PROJECT_DIR$/WhileLoopDemo/WhileLoopDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhileLoopExercise/WhileLoopExercise.iml" filepath="$PROJECT_DIR$/WhileLoopExercise/WhileLoopExercise.iml" />
+    </modules>
+  </component>
+</project>

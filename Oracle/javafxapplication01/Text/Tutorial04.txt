@@ -1,0 +1,5 @@
+Distribute BEHAVIOR ICONs wisely.
+
+Design a solution to deflect the BALL to DUKE.
+
+You cannot edit your solution while the BALL is moving.

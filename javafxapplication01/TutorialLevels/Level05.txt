@@ -1,0 +1,12 @@
+Ball 60 180 E
+Goal 822 540
+
+BlueBumper 510 210
+BlueBumper 510 450
+RedBumper 240 210
+
+LevelGeometry 780 360 BigTriangle NE
+
+LevelGeometry 780 600 BigSquare S
+
+//NoAnimation

@@ -1,0 +1,20 @@
+LambdaDirection
+LambdaFilterOr
+
+Ball 60 360 S
+
+LambdaCollectable 150 150 blue rect 1
+LambdaCollectable 150 480 blue rect 2
+LambdaCollectable 390 150 blue rect 3
+LambdaCollectable 720 270 blue star 3
+LambdaCollectable 720 360 blue star 3
+LambdaCollectable 390 480 red star 3
+LambdaCollectable 450 210 red rect 2
+LambdaCollectable 720 150 red rect 2
+LambdaCollectable 570 420 red star 1
+
+LevelGeometry 180 600 BigTriangle SE
+LevelGeometry 450 30 MedTriangle NE
+LevelGeometry 570 570 MedTriangle SE
+LevelGeometry 690 60 Triangle NE
+LevelGeometry 750 570 Triangle SE
