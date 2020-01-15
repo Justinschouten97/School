@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListsDemo/ArrayListsDemo.iml" filepath="$PROJECT_DIR$/ArrayListsDemo/ArrayListsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayListsEx/ArrayListsEx.iml" filepath="$PROJECT_DIR$/ArrayListsEx/ArrayListsEx.iml" />
+    </modules>
+  </component>
+</project>
