@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46af7fd2-8206-4220-b975-ca15b17ca14b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PrisonTest_Student_7_3/PrisonTest_Student_7_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrisonTest_Student_7_4/PrisonTest_Student_7_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/build/classes/prisontest/PrisonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/build/classes/prisontest/Prisoner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/src/prisontest/PrisonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_3/src/prisontest/Prisoner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/build/classes/prisontest/PrisonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/build/classes/prisontest/Prisoner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/src/prisontest/PrisonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PrisonTest_Student_7_4/src/prisontest/Prisoner.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\JScho\IdeaProjects\Game\School\Oracle\9.1\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WRkjp45EyvBk3QE8zDi5UOaKLs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Legion" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46af7fd2-8206-4220-b975-ca15b17ca14b" name="Default Changelist" comment="" />
+      <created>1579119932370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579119932370</updated>
+      <workItem from="1579119935034" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
