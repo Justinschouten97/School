@@ -16,6 +16,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import javafx.scene.control.TextField;
@@ -102,8 +103,6 @@ public class JavaFXTest extends Application {
             //plaatst de Hbox onderaan het scherm
             root.setLayoutY(210);
 
-
-
             //HBox in de Groep (po) plaatsen
             po.getChildren().add(root);
 
@@ -134,7 +133,7 @@ public class JavaFXTest extends Application {
 
 
 
-        Scene scene = new Scene(po, 300, 250);
+        Scene scene = new Scene(po, 300, 250, Color.SADDLEBROWN);
 
         primaryStage.setTitle("Hello Buttons!");
         primaryStage.setScene(scene);
