@@ -1,5 +1,0 @@
-Filter through, and modify BUMPERs based on their properties.
-
-Destroy BLUE BUMPERs.
-
-Preserve RED BUMPERs.
