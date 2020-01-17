@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbb0616b-f286-4840-a26d-3076cac3a5ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W1PQxTca6SABJK5znA93ZHdKoU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/flexbox" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/index" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/labs" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/oefening 7" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/RadioGaGa/css" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb0616b-f286-4840-a26d-3076cac3a5ea" name="Default Changelist" comment="" />
+      <created>1578314114316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578314114316</updated>
+      <workItem from="1578314115917" duration="3064000" />
+      <workItem from="1578391564858" duration="1229000" />
+      <workItem from="1578469257761" duration="17346000" />
+      <workItem from="1578555678065" duration="19021000" />
+      <workItem from="1579255378390" duration="288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="970" y="165" width="800" height="677" key="#Web_Browsers" timestamp="1578483417953">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="970" y="165" width="800" height="677" key="#Web_Browsers/67.27.1853.956@67.27.1853.956" timestamp="1578483417953" />
+    <state x="993" y="232" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578400735562">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="993" y="232" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.956@67.27.1853.956" timestamp="1578400735562" />
+    <state x="123" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1579255378092">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="123" y="217" key="com.intellij.ide.util.TipDialog/67.27.1853.956@67.27.1853.956" timestamp="1579255378092" />
+    <state x="89" y="141" key="com.intellij.ide.util.TipDialog/67.27.733.573@67.27.733.573" timestamp="1578391565366" />
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1578579769548">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup/67.27.1853.956@67.27.1853.956" timestamp="1578579769548" />
+  </component>
+</project>
