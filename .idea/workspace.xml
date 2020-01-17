@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5bdac06-bb42-4d81-8774-1e72f0be8cf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Game/kontra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/project-greenfoot-game-legion" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WWCCcI6oEmZ9wr6yRcs9KYioZj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Frontend" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5bdac06-bb42-4d81-8774-1e72f0be8cf1" name="Default Changelist" comment="" />
+      <created>1579255836491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579255836491</updated>
+      <workItem from="1579255838307" duration="2619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="978" y="165" width="800" height="677" key="#Web_Browsers" timestamp="1579257047776">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="978" y="165" width="800" height="677" key="#Web_Browsers/67.27.1853.956@67.27.1853.956" timestamp="1579257047776" />
+    <state x="1166" y="262" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579258457520">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="1166" y="262" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.956@67.27.1853.956" timestamp="1579258457520" />
+    <state x="872" y="139" key="SettingsEditor" timestamp="1579257075514">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="872" y="139" key="SettingsEditor/67.27.1853.956@67.27.1853.956" timestamp="1579257075514" />
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1579257889888">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup/67.27.1853.956@67.27.1853.956" timestamp="1579257889888" />
+  </component>
+</project>
