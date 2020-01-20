@@ -37,9 +37,17 @@ body {
 
     background-color: darkolivegreen;
     font-size: 15px;
-    background-image: url(../images/social-google-box-icon.png);
+    background-image: url(../allMedia/images/social-google-box-icon.png);
     background-repeat: no-repeat;
     background-position: right;
+
+    /*animation-name: revolutie;*/
+    /*animation-duration: 3s;*/
+    /*animation-iteration-count: infinite;*/
+}
+@keyframes revolutie {
+    from {transform: rotateX(0deg)}
+    to {transform: rotateX(360deg)}
 }
 #Div3 {
     width: 80%;
@@ -52,7 +60,7 @@ body {
     background-color: rgba(0,255,0, 0.2);
 
     font-size: 18px;
-    background-image: url(../images/firefox.jpeg);
+    background-image: url(../allMedia/images/firefox.jpeg);
     background-repeat: no-repeat;
     background-position: left;
 }

@@ -33,7 +33,7 @@ body {
 {
     margin-top: 25px;
     padding-top: 10%;
-    background-image: url(../images/logo.png) ;
+    background-image: url(../allMedia/images/logo.png) ;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -73,7 +73,6 @@ main
     }
 
 }
-
 /*center*/
 #center
 {
@@ -87,12 +86,47 @@ main
     border: 0.5px solid #fff;
     border-radius: 50%;
 }
+#pager a {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.8);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pager a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    font-size: 3.2rem;
+    background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+#vorige {
+    z-index: 1;
+    margin-left: 10px;
+    position: fixed;
+    top: 45%;
+    left: 4%;
+}
+#volgende {
+    z-index: 1;
+    margin-right: 10px;
+    position: absolute;
+    top: 45%;
+    right: 4%;
+}
 
  /*footer*/
 h3 {
     margin: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
 /*navigatie en links*/
 nav
 {
