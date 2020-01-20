@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a5bdac06-bb42-4d81-8774-1e72f0be8cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Game/kontra" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/project-greenfoot-game-legion" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="bbb0616b-f286-4840-a26d-3076cac3a5ea" name="Default Changelist" comment="" />
+>>>>>>> 15f39692eb8028df3432240320f1e93d18480e47
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +19,25 @@
       <executable />
     </execution>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WWCCcI6oEmZ9wr6yRcs9KYioZj" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W1PQxTca6SABJK5znA93ZHdKoU" />
+>>>>>>> 15f39692eb8028df3432240320f1e93d18480e47
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -29,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+<<<<<<< HEAD
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -44,6 +64,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$" />
+=======
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/flexbox" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/index" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/labs" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/oefening 7" />
+      <recent name="$PROJECT_DIR$/Frontend/Hoofdstuk.1/RadioGaGa/css" />
+>>>>>>> 15f39692eb8028df3432240320f1e93d18480e47
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -63,12 +98,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="a5bdac06-bb42-4d81-8774-1e72f0be8cf1" name="Default Changelist" comment="" />
       <created>1579255836491</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579255836491</updated>
       <workItem from="1579255838307" duration="2619000" />
+=======
+      <changelist id="bbb0616b-f286-4840-a26d-3076cac3a5ea" name="Default Changelist" comment="" />
+      <created>1578314114316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578314114316</updated>
+      <workItem from="1578314115917" duration="3064000" />
+      <workItem from="1578391564858" duration="1229000" />
+      <workItem from="1578469257761" duration="17346000" />
+      <workItem from="1578555678065" duration="19021000" />
+      <workItem from="1579255378390" duration="288000" />
+>>>>>>> 15f39692eb8028df3432240320f1e93d18480e47
     </task>
     <servers />
   </component>
@@ -79,6 +127,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="978" y="165" width="800" height="677" key="#Web_Browsers" timestamp="1579257047776">
       <screen x="67" y="27" width="1853" height="956" />
     </state>
@@ -95,5 +144,24 @@
       <screen x="67" y="27" width="1853" height="956" />
     </state>
     <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup/67.27.1853.956@67.27.1853.956" timestamp="1579257889888" />
+=======
+    <state x="970" y="165" width="800" height="677" key="#Web_Browsers" timestamp="1578483417953">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="970" y="165" width="800" height="677" key="#Web_Browsers/67.27.1853.956@67.27.1853.956" timestamp="1578483417953" />
+    <state x="993" y="232" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578400735562">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="993" y="232" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.956@67.27.1853.956" timestamp="1578400735562" />
+    <state x="123" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1579255378092">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="123" y="217" key="com.intellij.ide.util.TipDialog/67.27.1853.956@67.27.1853.956" timestamp="1579255378092" />
+    <state x="89" y="141" key="com.intellij.ide.util.TipDialog/67.27.733.573@67.27.733.573" timestamp="1578391565366" />
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1578579769548">
+      <screen x="67" y="27" width="1853" height="956" />
+    </state>
+    <state x="1046" y="233" width="672" height="678" key="search.everywhere.popup/67.27.1853.956@67.27.1853.956" timestamp="1578579769548" />
+>>>>>>> 15f39692eb8028df3432240320f1e93d18480e47
   </component>
 </project>
