@@ -36,6 +36,8 @@ body {
     background-image: url(../allMedia/images/logo.png) ;
     background-repeat: no-repeat;
     background-position: center;
+
+    box-shadow: Black;
 }
 /*main*/
 main
@@ -117,13 +119,29 @@ main
 }
 
  /*footer*/
-h3 {
-    margin: 20px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+#footer {
+
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
-
-
-
+footer img {
+    margin: 0;
+    width: 4%;
+}
+footer p {
+    margin: 0;
+    color: firebrick;
+}
 
 
 
