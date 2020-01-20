@@ -8,11 +8,11 @@ body {
     text-align: center;
 
 }
-body :hover
-{
-    margin-left: 10%
+/*body :hover*/
+/*{*/
+/*    margin-left: 10%*/
 
-}
+/*}*/
 
 #Div1 {
     width: 100%;
@@ -24,6 +24,7 @@ body :hover
 
     background-color: darkgreen;
     font-size: 12px;
+
 }
 #Div2 {
     width: 80%;
@@ -36,7 +37,9 @@ body :hover
 
     background-color: darkolivegreen;
     font-size: 15px;
-
+    background-image: url(../images/social-google-box-icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 #Div3 {
     width: 80%;
@@ -46,10 +49,12 @@ body :hover
     margin: 0 auto;
     position: relative;
 
+    background-color: rgba(0,255,0, 0.2);
 
-    background-color: rgba(0,255,0, 0.6);
     font-size: 18px;
-
+    background-image: url(../images/firefox.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #Div4 {
@@ -61,7 +66,7 @@ body :hover
     margin: 0 auto;
 
     color: red;
-    background-color: yellowgreen;
+    background-color: rgba(0,255,0, 0.6);
     font-size: 20px;
 
     text-align: center;

@@ -30,7 +30,7 @@ div
     text-align: center;
 }
 
-.B
+.b
 {
     order: 3; /* default is 0 */
     align-self: flex-end;
