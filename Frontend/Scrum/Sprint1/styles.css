@@ -5,12 +5,12 @@
     padding: 0px;
 }
 
-/*html {*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    background-color: lightgray;*/
-/*    overflow: auto;*/
-/*}*/
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+}
 nav {
     width: 100%;
     overflow: hidden;
@@ -42,10 +42,8 @@ a {
 }
 .logo img{width: 100px;}
 
-/*main*/
-main
-{
-    width: 100%;
-    margin: 0;
-    padding-bottom: 3%;
+nav {
+    border: solid 1px;
+    background-color: black;
+    /*background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);*/
 }
