@@ -1,0 +1,10 @@
+
+
+
+.container {
+    border: solid 1px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 100px repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1em;
+}
