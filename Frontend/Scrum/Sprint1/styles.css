@@ -1,49 +1,125 @@
 
-*
-{
+*{
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    text-decoration: none;
 }
 
-html {
+body{
+    background-image: url("wooden_background_1.jpg");
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header{
+    width: 90%;
     height: 100%;
-    width: 100%;
-    background-color: lightgray;
-    overflow: auto;
+    display: block;
+    margin: 0 auto;
+    /*background-color: darkblue;*/
 }
-nav {
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-}
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-li {
+
+.logo_container{
+    height: 100%;
+    display: table;
     float: left;
 }
-a {
-    font-size: 18px;
-    padding: 20px;
+
+.logo img{
     width: 100px;
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: border-bottom-color 50ms linear 0s;
+    height: 100px;
+    margin-top: -5px;
+    margin-left: -10px;
+
 }
 
-.footer {
-    margin-top: 450px;
+.logo img:hover{
+    animation-name: revolutie;
+    animation-duration: 0.1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-.logo img{width: 100px;}
 
-nav {
-    border: solid 1px;
-    background-color: black;
-    /*background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);*/
+@keyframes revolutie {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
 }
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 10px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+}
+.navigation a li:hover{
+    background-color: rgba(255,255,255,0.2);
+    color: red;
+    border-radius: 10%;
+}
+
+.eersteText_container{
+
+}
+.eersteText h4{
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.middenText_container{
+
+}
+.text_student{
+    color: white;
+    margin-top: 40%;
+}
+
+.footer{
+    color: white;
+    margin-top: 50%;
+}
+
+
+
+
+
+
+
+
+
+/*.logo_container h1{*/
+/*    color: white;*/
+/*    height: 100%;*/
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
+/*    font-family: 'Montserrat', serif;*/
+/*    font-size: 32px;*/
+/*    font-weight: 200;*/
+/*}*/
+
+/*.logo_container h1 span{*/
+/*    font-weight: 800;*/
+/*}*/
