@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url("images/laptop-wallpaper-1920x1080.jpg");
+    background-image: url("../images/laptop-wallpaper-1920x1080.jpg");
     background-repeat: no-repeat;
 }
 
@@ -112,6 +112,8 @@ body{
     margin-top: 10%;
     color: white;
 }
+
+
 .img_JMS img{
     float: right;
     display: block;
@@ -120,11 +122,11 @@ body{
     margin-right: 5%;
 }
 
-.ambassador{
+.ambassador h2{
     color: black;
     margin-top: 20%;
+    width: 60%;
     text-align: center;
-    width: 100%;
 }
 
 .logos_goededoelen{

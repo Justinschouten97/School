@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("images/black_bg_2816x1760.jpg");
+    background-repeat: round;
+}
+
+/*.bg{*/
+/*    background-image: url("images/wood_bg_1024x872.jpg");*/
+/*    background-repeat: round;*/
+/*    filter: blur(8px);*/
+/*    -webkit-filter: blur(8px);*/
+/*    position: initial;*/
+
+/*    z-index: 0;*/
+
+/*    !* Full height *!*/
+/*    height: 100%;*/
+
+/*    !* Center and scale the image nicely *!*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*}*/
+
+
+/*headers*/
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /*background-color: darkblue;*/
+}
+
+/*logo*/
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-top: -5px;
+    margin-left: -10px;
+
+}
+
+.logo img:hover{
+    animation-name: revolutie;
+    animation-duration: 0.1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes revolutie {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+/*navigation*/
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 10px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+}
+.navigation a li:hover{
+    background-color: rgba(255,255,255,0.09);
+    color: red;
+    border-radius: 10%;
+}
+/*einde navigation*/
+/*einde header*/
+
+.container{
+    border: dotted 3px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.foto_begin,
+.text_application,
+.text_iam,
+.text_company,
+.company_logo,
+.text_ambassador,
+.img_ambassador
+{
+    border: dotted 3px;
+    width: 90%;
+    align-self: center;
+
+    text-align: center;
+    /*background-color: rgba(0,0,0, 0.3);*/
+    color: white;
+}
+
+.foto_begin{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("images/laptop-wallpaper-1920x1080.jpg");
+
+    background-size: 100% 100%;
+}
+
+.foto_begin h1, h2{
+    text-align: center;
+    /*margin: 1rem;*/
+
+}
+
+.text_application{
+    /*margin: 1rem;*/
+    height: 200px;
+    background-color: darkgray;
+    opacity: 80%;
+    color: black;
+
+}
+
+.text_iam{
+    /*margin: 1rem;*/
+    height: 100px;
+    background-color: white;
+    color: black;
+}
+
+.text_company{
+    background-color: dimgray;
+    color: white;
+    height: 50px;
+}
+
+.company_logo{
+    background-color: white;
+}
+
+.text_ambassador{
+    background-color: dimgray;
+    height: 50px;
+}
+
+.img_ambassador{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgba(255,255,255, 1.0);
+}
+
+/*ipad groote*/
+@media only screen and (min-width: 500px){}
+
+/*pc groote*/
+@media only screen and (min-width: 1000px){}
+
+/*extreem grote schermen*/
+@media only screen and (min-width: 1700px){}
