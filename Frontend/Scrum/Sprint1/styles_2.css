@@ -152,6 +152,8 @@ body{
     opacity: 80%;
     color: black;
 
+    display: table-cell;
+    vertical-align: center;
 }
 
 .text_iam{
