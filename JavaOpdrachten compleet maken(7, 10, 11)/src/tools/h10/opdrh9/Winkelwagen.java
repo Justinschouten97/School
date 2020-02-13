@@ -13,11 +13,13 @@ public class Winkelwagen {
         Artikel art2 = new Artikel("Broek" + " prijs " + euro, 32.85);
         Artikel art3 = new Artikel("Sokken" + " prijs " + euro, 11.25);
         Artikel art4 = new Artikel("Jas" + " prijs " + euro, 120.65);
+        Artikel art5 = new Artikel("Game " + "prijs " + euro, 800.99);
 
         artikelenlijst.add(art1);
         artikelenlijst.add(art2);
         artikelenlijst.add(art3);
         artikelenlijst.add(art4);
+        artikelenlijst.add(art5);
     }
 
     public static void main(String[] args) {

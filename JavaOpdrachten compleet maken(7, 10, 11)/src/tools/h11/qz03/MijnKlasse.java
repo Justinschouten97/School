@@ -21,7 +21,8 @@ public class MijnKlasse {
         MijnKlasse mk3 = new MijnKlasse();
         MijnKlasse mk4, mk5, mk6, mk7, mk8 = new MijnKlasse();
 
-        mk1.mijnMethode(3);
+        mk1.mijnMethode(50);
+        mk3.mijnMethode(3);
         System.out.print(mk2.x + ", " + mk1.y);
     }
 }
