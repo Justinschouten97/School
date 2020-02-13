@@ -21,6 +21,9 @@ header {
 .logo  {
   margin-left: 865px;
 }
+.Shop {
+  margin-top: -20px;
+}
 /* navigation settings */
 nav {
   width: 100%;
@@ -37,7 +40,7 @@ li {
   float: left;
   display: flex;
   flex-direction: row;
-  margin-left: 125px;
+  margin-left: 180px;
 }
 a {
   font-family: 'Roboto Slab', serif;
