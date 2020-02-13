@@ -1,8 +1,89 @@
+/*Inhoudsopgaven*/
+
+/*1. Algemeen*/
+/*2. Header & Navigation*/
+/*3. Footer*/
+/*4. Producten*/
+/*5. Kortingen*/
+/*6. Social links*/
+
+
+/*---------------------------------- 1. Algemeen ----------------------------------*/
 body{
     background-image: url("../img/Tennis.jpg");
     background-size: cover;
 }
 
+/*.*/
+#grid {
+    margin-left: 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: 100%;
+    border:dotted 3px;
+}
+/*---------------------------------- Einde Algemeen ----------------------------------*/
+
+
+/*---------------------------------- 2. Header & Navigation ----------------------------------*/
+header {
+    background-color: #fff;
+    width: 100%;
+}
+.logo  {
+    margin-left: 865px;
+}
+.Shop {
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+
+/* navigation settings */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #3f3e40;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li {
+    margin-top: 15px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+}
+a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #ffc304;
+}
+/*---------------------------------- Einde Header & Navigation ----------------------------------*/
+
+
+
+/*---------------------------------- 3. Footer ----------------------------------*/
+footer {
+    width: 100%;
+}
+/*---------------------------------- Einde Footer ----------------------------------*/
+
+
+
+/*---------------------------------- 4. Producten ----------------------------------*/
 .product-grid{
     font-family: Tahoma;
     text-align: center;
@@ -40,8 +121,10 @@ body{
     width: 100%;
     height: auto;
 }
+/*---------------------------------- Einde Producten ----------------------------------*/
 
 
+/*---------------------------------- 5. Kortingen ----------------------------------*/
 .product-dicount-label{
     color: white;
     background-color: #000;
@@ -53,7 +136,10 @@ body{
     left: 15px;
     top: 15px;
 }
+/*---------------------------------- Einde Kortingen ----------------------------------*/
 
+
+/*---------------------------------- 6. Social Links ----------------------------------*/
 .product-grid .social{
     width: 100%;
     padding: 30px 0;
@@ -135,3 +221,4 @@ body{
 .product-grid .price{
     color: #fa8231;
 }
+/*---------------------------------- Einde Social Links ----------------------------------*/
