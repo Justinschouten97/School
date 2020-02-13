@@ -10,17 +10,13 @@ body {
   height: 100%;
 }
 #grid {
+
   margin-left: 5%;
   width: 90%;
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: 20% 75%;
   grid-template-rows: 100%;
   border:dotted 3px;
-=======
-  grid-template-columns: 15% 85%;
-  grid-template-rows: 100%;
->>>>>>> bfd78e3ceb14a1fb47925849f4296b20fadcf392
 }
 
 header {
@@ -94,11 +90,7 @@ aside {
   grid-row-end: 2;
 }
 footer {
-<<<<<<< HEAD
-=======
 
-
->>>>>>> homePageSlider
   width: 100%;
 }
 
