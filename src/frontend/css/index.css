@@ -17,10 +17,9 @@ body {
 
 header {
   width: 100%;
-  background-color: #D4AF37;
 }
 .logo  {
-  margin-left: 690px;
+  margin-left: 865px;
 }
 /* navigation settings */
 nav {
@@ -38,7 +37,7 @@ li {
   float: left;
   display: flex;
   flex-direction: row;
-  margin-left: 80px;
+  margin-left: 125px;
 }
 a {
   font-family: 'Roboto Slab', serif;
