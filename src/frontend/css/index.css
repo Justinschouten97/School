@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   height: 100%;
 }
 #grid {
+
   margin-left: 5%;
   width: 90%;
   display: grid;
@@ -23,7 +24,7 @@ header {
   width: 100%;
 }
 .logo  {
-  margin-left: 865px;
+  margin-left: 45%;
 }
 .Shop {
   margin-top: -10px;
@@ -89,6 +90,10 @@ aside {
   grid-row-end: 2;
 }
 footer {
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/Developer
   width: 100%;
 }
 
