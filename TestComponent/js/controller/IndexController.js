@@ -6,6 +6,10 @@ window.addEventListener("load", (e) => {
 class IndexController {
 
     init() {
+
+        let loginComponent = new LoginSection();
+        document.querySelector("main").append(loginComponent.getView());
+
         this.correctUsername = "admin";
         this.correctPassword = "admin";
 
