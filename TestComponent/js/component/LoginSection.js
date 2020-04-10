@@ -2,8 +2,13 @@ class LoginSection extends Component {
 
     constructor() {
         super("section");
+        // Variables
+        this.correctUsername = "admin";
+        this.correctPassword = "admin";
+
         this.rootElement.id = "login";
         this.rootElement.classList.add("loginSection");
+
         this.initView();
     }
 
@@ -31,7 +36,7 @@ class LoginSection extends Component {
 
         // Check whether the correct username and password are the same as the form values
         if (username === this.correctUsername && password === this.correctPassword) {
-            this.getElementbyId("login").textContent = "Login succes!";
+            this.rootElement.textContent = "Login succes!";
         } else {
             // Get all the input elements with the <input> tag
             let inputs = this.rootElement.getElementsByTagName("input");
