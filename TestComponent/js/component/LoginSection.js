@@ -36,7 +36,9 @@ class LoginSection extends Component {
 
         // Check whether the correct username and password are the same as the form values
         if (username === this.correctUsername && password === this.correctPassword) {
-            this.rootElement.textContent = "Login succes!";
+            this.rootElement.textContent = "Login succes!"
+                window.open("https://google.com")
+            ;
         } else {
             // Get all the input elements with the <input> tag
             let inputs = this.rootElement.getElementsByTagName("input");
