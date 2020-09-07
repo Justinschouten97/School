@@ -3,9 +3,15 @@
 // const -> block
 
 
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
 
-
-
+    walk() {
+        console.log("walk")
+    }
+}
 
 
 
@@ -172,9 +178,58 @@
 // const  { street: str} = address;
 // ------------------------------------------------------------------
 
+// ------------------------------------------------------------------
+// voorbeeld 1
+// const first = [1, 2, 3];
+// const second = [4, 5, 6];
+//
+// // const combined = first.concat(second);
+// // // or
+// // const combined = [...first, 'a', ...second, 'b'];
+//
+// const clone = [...first]
+// console.log(first)
+// console.log(second)
 
+// voorbeeld 2
+// const first = {name: 'Mosh'};
+// const second = {job: 'Instructor'};
+//
+// const combined = {...first, ...second};
+// // console.log(combined)
+// // or
+// const combined = {...first, ...second, location: "Nederland"};
+// // clone =
+// const clone = {...first};
+// ------------------------------------------------------------------
 
+// ------------------------------------------------------------------
+// oude manier persoon aanmaken
+// const person = {
+//     name: "Mosh",
+// walk() {
+//     console.log("walk")
+// }
+// };
 
+// person2,3,4 enzovoort is te veel werk zeker bij een fout
+
+// nieuwe manier doormiddel van een class/constructor
+// class Person {
+//     constructor(name) {
+//         this.name = name;
+//     }
+//
+//     walk() {
+//         console.log("walk")
+//     }
+// }
+//
+// const person = new Person('Mosh');
+// person. //heeft nu alle functies van de constructor en is makkelijk aan te passen
+// ------------------------------------------------------------------
+
+// ------------------------------------------------------------------
 
 
 
