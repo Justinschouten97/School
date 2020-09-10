@@ -17,16 +17,17 @@
         // invoer van uur om te gebruiken in de switch
         $uur = date("H");
 
-        if (($uur >= 6) && ($uur < 12)) {
-            echo "Het is Octend";}
+        switch ($uur){
 
-        else if (($uur >= 12) && ($uur < 18)) {
-            echo "Het is Middag";}
+            case ("$uur" >= 6) && ("$uur" < 12) : echo "Het is Ochtend";
+                break;
+            case ("$uur" >= 12) && ("$uur" < 18): echo "Het is Middag";
+                break;
+            case ("$uur" > 18) && ("$uur" < 24): echo "Het is Avond";
+                break;
 
-        else if (($uur >= 18) && ($uur < 24)) {
-            echo "Het is Avond";}
-
-        else {echo "Het is Nacht";}
+            default: echo "Het is Nacht";
+        }
 
         ?>
     </body>
