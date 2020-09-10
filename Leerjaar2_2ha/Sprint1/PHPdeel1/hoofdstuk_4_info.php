@@ -1,6 +1,17 @@
 <html>
     <head>
         <title>Hoofdstuk 4 Info</title>
+        <style type="text/css">
+            table{
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+            td{
+                border: 1px solid black;
+                width: 25px;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
@@ -115,7 +126,49 @@
 //            for ($i = 1; $i < 10; $i++){
 //                echo "$i x $number = " . ($i * $number) . " <br>";
 //            }
-            echo "test";
+
+//        tafel van 9 met table en border
+        $number = 9;
+            echo "<table border='1'>";
+            for ($i = 1; $i < 10; $i++){
+                echo "<tr>";
+                echo "<td>$i</td>";
+                echo "<td> x </td>";
+                echo "<td>$number</td>";
+                echo "<td> = </td>";
+                echo "<td>" . ($i * $number) . "</td>";
+                echo "</tr>";
+            }
+            echo "</table>";
+
+            echo "<br>";
+
+            $days = array();
+            $days[0] = "Zondag";
+            $days[1] = "Maandag";
+            $days[2] = "Dinsdag";
+            $days[3] = "Woensdag";
+            $days[4] = "Donderdag";
+            $days[5] = "Vrijdag";
+            $days[6] = "Zaterdag";
+
+            foreach ($days as $days){
+                echo "$days <br>";
+            }
+
+
+
+
+
+
+
+
+
+
+            echo "<br>";
+            echo "<br>";
+            echo "<br>";
+            echo "Code draait wel!"
         ?>
     </body>
 </html>
