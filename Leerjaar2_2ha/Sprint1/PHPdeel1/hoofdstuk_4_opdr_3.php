@@ -1,33 +1,18 @@
 <html>
     <head>
-        <title></title>
+        <title>Opdracht 3 H4</title>
     </head>
     <body>
         <?php
 
-        // invoer van tijdzone
-        date_default_timezone_set("Europe/Amsterdam");
+        $var1 = 10;
+        $var2 = 15;
 
-        // invoer van de tijd (uur + min)
-        $date = date("H:i");
-        echo "$date";
+        $form1 = $var2 * 2;
 
-        echo "<br>";
+        $form2 = $form1 + $var1;
 
-        // invoer van uur om te gebruiken in de switch
-        $uur = date("H");
-
-        switch ($uur){
-
-            case ("$uur" >= 6) && ("$uur" < 12) : echo "Het is Ochtend";
-                break;
-            case ("$uur" >= 12) && ("$uur" < 18): echo "Het is Middag";
-                break;
-            case ("$uur" > 18) && ("$uur" < 24): echo "Het is Avond";
-                break;
-
-            default: echo "Het is Nacht";
-        }
+        echo "Uitkomst: $form2";
 
         ?>
     </body>

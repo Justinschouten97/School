@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title></title>
+        <title>Opdracht 1 H4</title>
     </head>
     <body>
         <?php
@@ -14,7 +14,7 @@
 
         echo "<br>";
 
-        // invoer van uur om te gebruiken in de switch
+        // invoer van uur om te gebruiken in de if statement
         $uur = date("H");
 
         if (($uur >= 6) && ($uur < 12)) {
