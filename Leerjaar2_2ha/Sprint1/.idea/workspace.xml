@@ -17,6 +17,7 @@
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hAtvPZdxYJtOw6fsUpmfgCRuqp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,8 +26,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../xampp/php/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student.DESKTOP-NLE9OIH\.dotnet\justinschouten\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
@@ -47,10 +55,29 @@
       <option name="presentableId" value="Default" />
       <updated>1599465955577</updated>
       <workItem from="1599465956913" duration="3854000" />
+      <workItem from="1600672645597" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="957" y="129" key="#CLI_Interpreters" timestamp="1600672906657">
+      <screen x="0" y="0" width="1920" height="943" />
+    </state>
+    <state x="957" y="129" key="#CLI_Interpreters/0.0.1920.943@0.0.1920.943" timestamp="1600672906657" />
+    <state x="1084" y="117" key="#PHP" timestamp="1600672910235">
+      <screen x="0" y="0" width="1920" height="943" />
+    </state>
+    <state x="1084" y="117" key="#PHP/0.0.1920.943@0.0.1920.943" timestamp="1600672910235" />
+    <state x="1156" y="229" key="FileChooserDialogImpl" timestamp="1600672900845">
+      <screen x="0" y="0" width="1920" height="943" />
+    </state>
+    <state x="1156" y="229" key="FileChooserDialogImpl/0.0.1920.943@0.0.1920.943" timestamp="1600672900845" />
+    <state x="877" y="119" key="SettingsEditor" timestamp="1600672857735">
+      <screen x="0" y="0" width="1920" height="943" />
+    </state>
+    <state x="877" y="119" key="SettingsEditor/0.0.1920.943@0.0.1920.943" timestamp="1600672857735" />
   </component>
 </project>
