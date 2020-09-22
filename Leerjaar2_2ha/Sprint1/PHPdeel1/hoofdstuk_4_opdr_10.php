@@ -3,24 +3,26 @@
         <title>Opdracht 10 H4</title>
     </head>
     <body>
+
         <?php
 
-        $getal = 4;
+        $beginGetal = 78; // voor de eind print
+        $getal = $beginGetal; // voor de loop
         $som = 0;
 
 
-        for ($i = 0; $i <= $getal; $i++){
+        for ($i = 0; $i < $getal; $i++){
 
-            $som =- $i;
+            $som -= $i;
+            $getal -= $i;
+            echo $i. " + ";
 
-            echo $getal + $som;
-            echo " + ";
-
-            $som++;
         }
 
 
-        echo " = $getal";
+        echo "$i";
+        echo " = ";
+        echo $beginGetal;
 
         ?>
     </body>
