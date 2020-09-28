@@ -1,37 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="" />
+    <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Game/Controller/gameController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/View/Component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/View/gameSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/vierOpEenRij.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/vierOpEenRij.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1hAtvPZdxYJtOw6fsUpmfgCRuqp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHPdeel1" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Student.DESKTOP-NLE9OIH\.dotnet\justinschouten\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
     </key>
@@ -46,7 +82,22 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="" />
@@ -59,11 +110,27 @@
       <workItem from="1600678587526" duration="267000" />
       <workItem from="1600678873192" duration="165000" />
       <workItem from="1600679055522" duration="3536000" />
+      <workItem from="1601219517845" duration="557000" />
+      <workItem from="1601220180659" duration="4509000" />
+      <workItem from="1601275545090" duration="840000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="957" y="129" key="#CLI_Interpreters" timestamp="1600678435921">
@@ -78,9 +145,14 @@
       <screen x="0" y="0" width="1920" height="943" />
     </state>
     <state x="1156" y="229" key="FileChooserDialogImpl/0.0.1920.943@0.0.1920.943" timestamp="1600678417017" />
-    <state x="877" y="119" key="SettingsEditor" timestamp="1600678439159">
-      <screen x="0" y="0" width="1920" height="943" />
+    <state x="555" y="104" key="SettingsEditor" timestamp="1601220167001">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="555" y="104" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601220167001" />
     <state x="877" y="119" key="SettingsEditor/0.0.1920.943@0.0.1920.943" timestamp="1600678439159" />
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1601275547215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601275547215" />
   </component>
 </project>
