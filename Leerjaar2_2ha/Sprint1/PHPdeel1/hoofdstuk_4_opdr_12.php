@@ -5,32 +5,43 @@
     <body>
         <?php
 
-        $valutas = array();
-        $valutas[0] = "Euro";
-        $valutas[1] = "Amerikaanse dollar";
-        $valutas[2] = "Britse pond";
-        $valutas[3] = "Japanse Yen";
-        $valutas[4] = "Indiase Roepi";
-
-        foreach ($valutas as $valuta){
-            echo "$valuta <br>";
-        }
-
         echo "<table border='1'>";
-        for ($i = 1; $i < 10; $i++){
+
+        // waarde vs de waarde van 1 euro
+        $euro = 1;
+        $amerikaanseDollar = 1.12651;
+        $britsePond = 0.79494;
+        $japanseYen = 119.524;
+        $indiaseRoepi = 75.559;
+
+        // headers van de table
+        echo "<th>Euro</th>";
+        echo "<th>Amerikaanse Dollar</th>";
+        echo "<th>Britse Pond</th>";
+        echo "<th>Japanse Yen</th>";
+        echo "<th>Indiase Roepi</th>";
+
+
+        for ($i = 0; $i < 11; $i++){
+
+            // variabele
+            $nieuwAmerikaanseDollar = $amerikaanseDollar * $euro;
+            $nieuwBritsePond = $britsePond * $euro;
+            $nieuwJapanseYen = $japanseYen * $euro;
+            $nieuwIdiaseRoepi = $indiaseRoepi * $euro;
+
+            // tabel
             echo "<tr>";
             echo "<td>$i</td>";
-            echo "<td>$valuta</td>";
-            echo "<td>$valuta</td>";
-            echo "<td> = </td>";
+            echo "<td>$nieuwAmerikaanseDollar</td>";
+            echo "<td>$nieuwBritsePond</td>";
+            echo "<td>$nieuwJapanseYen</td>";
+            echo "<td>$nieuwIdiaseRoepi</td>";
             echo "</tr>";
 
+            $euro++;
         }
         echo "</table>";
-
-        echo "<br>";
-
-
 
         ?>
     </body>

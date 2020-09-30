@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Game/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/js/Module/MemoryModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/js/Module/VierOpEenRij.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/js/View/MemoryView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/js/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_13.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Controller/gameController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Game/js/Controller/Controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/Component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/gameSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/vierOpEenRij.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game/vierOpEenRij.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/vierOpEenRij.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_12.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHPdeel1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -78,6 +68,7 @@
       <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
       <recent name="C:\Users\Student.DESKTOP-NLE9OIH\.dotnet\justinschouten\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
     </key>
   </component>
@@ -121,7 +112,7 @@
       <workItem from="1600679055522" duration="3536000" />
       <workItem from="1601219517845" duration="557000" />
       <workItem from="1601220180659" duration="4509000" />
-      <workItem from="1601275545090" duration="15191000" />
+      <workItem from="1601275545090" duration="23044000" />
     </task>
     <servers />
   </component>
