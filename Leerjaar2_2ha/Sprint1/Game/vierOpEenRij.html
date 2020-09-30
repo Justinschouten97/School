@@ -13,8 +13,8 @@
         var rijen;
         var kolommen;
         var knopKleur = 'yellow';
-        rijen=prompt("Geef het aantal rijen op : ",5);
-        kolommen=prompt("Geef het aantal kolommen op :",8);
+        rijen=prompt("Geef het aantal rijen op : ",6);
+        kolommen=prompt("Geef het aantal kolommen op :",7);
         arij = rijen;
         akolom = kolommen;
         for(i = 0 ; i < akolom; i++){
@@ -138,7 +138,7 @@
                     }else{	//rood was aan zet
                         for(i = beginRij ; i < arij && beginKolom - i >= 0 ; i++){
                             if(arrVeld[(beginKolom - i)+beginRij][i] === "rood"){//kijken of in het veld de waarde roodl staat
-                                aantal++//wanneer er rood staat het aantal met 1 verhogen
+                                aantal++; //wanneer er rood staat het aantal met 1 verhogen
                                 if(aantal  ===  4){
                                     alert("4 op een rij voor de rode blokken (diagonaal)")
                                 }
@@ -152,7 +152,7 @@
              //diagonale controle van links naar rechts oplopend
              ************/
 
-            aantal = 0 //aantal terug initialiseren want het aantal kan door de code hierboven meer dan 0 zijn
+            aantal = 0; //aantal terug initialiseren want het aantal kan door de code hierboven meer dan 0 zijn
 //bepalen in welke cel we zitten en of er van daaruit een lijn kan gemaakt worden
             if(kolom === 0 && rij > arij -4){
                 //niets doen

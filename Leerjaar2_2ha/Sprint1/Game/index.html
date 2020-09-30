@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>4 op 1 rij</title>
+</head>
+<body>
+
+<container id="main-container">
+
+    <!--    hierin komt de 4 op 1 rij-->
+    <div id="title"><h2>4 op 1 rij!</h2></div>
+
+    <div id="speelBord">
+
+        <script>
+            akolom = 0;
+            for(knop = 0 ; knop < akolom ; knop++){
+                strHTML += "<td align=center width='50'><input style='width:'50' type='button' value='" + (knop + 1) +
+                    "' style='background:\""+knopKleur+"\"' onclick='plaatsSchijf(" + knop +")'></td>"
+            }
+        </script>
+
+        <tabel>
+            <td align="center" width="50"><button class="button">1</button></td>
+            <td align="center" width="50"><button class="button">2</button></td>
+            <td align="center" width="50"><button class="button">3</button></td>
+            <td align="center" width="50"><button class="button">4</button></td>
+            <td align="center" width="50"><button class="button">5</button></td>
+            <td align="center" width="50"><button class="button">6</button></td>
+            <td align="center" width="50"><button class="button">7</button></td>
+
+            <br>
+            <br>
+
+            <tr id="form">
+                <td class="tegel" align="center" width="50">
+                    0.0
+                </td>
+                <td>
+                    0.2
+                </td>
+                <td>
+                    0.3
+                </td>
+                <td>
+                    0.4
+                </td>
+                <td>
+                    0.5
+                </td>
+                <td>
+                    0.6
+                </td>
+                <td>
+                    0.7
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    1.0
+                </td>
+                <td>
+                    1.1
+                </td>
+                <td>
+                    1.2
+                </td>
+                <td>
+                    1.3
+                </td>
+                <td>
+                    1.4
+                </td>
+                <td>
+                    1.5
+                </td>
+                <td>
+                    1.6
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    2.0
+                </td>
+                <td>
+                    2.1
+                </td>
+                <td>
+                    2.2
+                </td>
+                <td>
+                    2.3
+                </td>
+                <td>
+                    2.4
+                </td>
+                <td>
+                    2.5
+                </td>
+                <td>
+                    2.6
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    3.0
+                </td>
+                <td>
+                    3.1
+                </td>
+                <td>
+                    3.2
+                </td>
+                <td>
+                    3.3
+                </td>
+                <td>
+                    3.4
+                </td>
+                <td>
+                    3.5
+                </td>
+                <td>
+                    3.6
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    4.0
+                </td>
+                <td>
+                    4.1
+                </td>
+                <td>
+                    4.2
+                </td>
+                <td>
+                    4.3
+                </td>
+                <td>
+                    4.4
+                </td>
+                <td>
+                    4.5
+                </td>
+                <td>
+                    4.6
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    5.0
+                </td>
+                <td>
+                    5.1
+                </td>
+                <td>
+                    5.2
+                </td>
+                <td>
+                    5.3
+                </td>
+                <td>
+                    5.4
+                </td>
+                <td>
+                    5.5
+                </td>
+                <td>
+                    5.6
+                </td>
+            </tr>
+            <br>
+        </tabel>
+
+    </div>
+
+
+    <script type="module" src="js/start.js"></script>
+</container>
+<div id="controlpanel">
+    <button id="start" class="control">Start spel</button>
+    <div><label id="score"></label></div>
+    <button id="restart" class="control">Restart spel</button>
+</div>
+
+</body>
+</html>

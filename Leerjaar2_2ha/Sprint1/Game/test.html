@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var i, j, mainCube, a, div;
+    // mainCube = [];
+    // for (i = 0; i < 3; ++i) {
+    //     mainCube[i] = a = [];
+    //     for (j = 0; j < 15; ++j) {
+    //         // Create the div
+    //         mainCube[i][j] = div = document.createElement('div');
+    //
+    //         // Add class and such to div
+    //         div.className = "letterPix"; // No dot!
+    //
+    //         // Append it to something
+    //
+    //     }
+    // }
+
+    var i, j, mainCube, a, div, elements;
+    elements = document.querySelectorAll(".mainCubeClass");
+    mainCube = [];
+    for (i = 0; i < elements.length; ++i) {
+        mainCube[i] = a = [];
+        for (j = 0; j < 15; ++j) {
+            // Create this div
+            mainCube[i][j] = div = document.createElement('div');
+
+            // Add class and such to div
+            div.className = "letterPix"; // No dot!
+
+            // Append it to the mainCubeClass element
+            elements[i].appendChild(div);
+        }
+    }
+</script>
+
+<div class="mainCubeClass" id="mainCubeClass">
+
+
+</div>
+</body>
+</html>
