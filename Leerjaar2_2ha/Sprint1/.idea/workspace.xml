@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_10.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_11.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_11.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_13.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_13.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_14.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_14.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_15.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_4.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_5.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_7.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_9.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +116,7 @@
       <workItem from="1601275545090" duration="24716000" />
       <workItem from="1601493032055" duration="93000" />
       <workItem from="1601493145028" duration="5667000" />
-      <workItem from="1601516801962" duration="518000" />
+      <workItem from="1601516801962" duration="1990000" />
     </task>
     <servers />
   </component>

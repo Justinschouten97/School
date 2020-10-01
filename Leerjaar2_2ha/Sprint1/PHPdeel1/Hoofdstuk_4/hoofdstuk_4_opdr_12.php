@@ -22,7 +22,7 @@
         echo "<th>Indiase Roepi</th>";
 
 
-        for ($i = 0; $i < 11; $i++){
+        for ($i = 1; $i <= 10; $i++){
 
             // variabele
             $nieuwAmerikaanseDollar = $amerikaanseDollar * $euro;
