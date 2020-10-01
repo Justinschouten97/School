@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_14.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_10.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_11.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_13.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_14.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_14.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_15.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_4.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_5.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_7.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPdeel1/hoofdstuk_4_opdr_9.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_9.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +77,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game\js" />
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
       <recent name="C:\Users\Student.DESKTOP-NLE9OIH\.dotnet\justinschouten\School\Leerjaar2_2ha\Sprint1\PHPdeel1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\PHPdeel1\Hoofdstuk_4" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game\js" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,7 +129,8 @@
       <workItem from="1601220180659" duration="4509000" />
       <workItem from="1601275545090" duration="24716000" />
       <workItem from="1601493032055" duration="93000" />
-      <workItem from="1601493145028" duration="3645000" />
+      <workItem from="1601493145028" duration="5667000" />
+      <workItem from="1601516801962" duration="518000" />
     </task>
     <servers />
   </component>
@@ -151,10 +168,10 @@
     </state>
     <state x="555" y="104" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601220167001" />
     <state x="877" y="119" key="SettingsEditor/0.0.1920.943@0.0.1920.943" timestamp="1600678439159" />
-    <state x="849" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1601493146828">
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1601516802416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="849" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601493146828" />
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601516802416" />
     <state x="809" y="190" key="run.anything.popup" timestamp="1601277479884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
