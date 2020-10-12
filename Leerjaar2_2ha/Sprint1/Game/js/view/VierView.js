@@ -21,7 +21,7 @@ export class VierView {
     // button om de game te starten
     bindStartGame(handler) {
         let startButton = this.getElement("#start");
-        startButton.addEventListener('click', VierOpEenRijEvent => {
+        startButton.addEventListener('click', VierEvent => {
             handler();
         })
     }

@@ -1,23 +1,23 @@
 // import {Coin} from './VierModel.js';
 
 
-export class VierModel extends EventTarget{
+export class VierModel extends EventTarget {
 
     constructor() {
         super();
 
+        this.prepareTheGame();
         this.initView();
         this.placeCoin();
         this.toonkleur();
         this.showSpeelBord();
-        this.prepareTheGame();
         this.score();
 
         this.controleer();
         this.maakControlBlank();
         this.init();
 
-        
+
         var geel = true; //kijken of geel of rood aan zet is
         var arij = 8;
         var akolom = 10;
@@ -33,6 +33,14 @@ export class VierModel extends EventTarget{
             arrVeld[i] = new Array();
 
         }
+    }
+
+
+    prepareTheGame () {
+        this.showSpeelBord();
+        this.initView();
+        this.score = 0;
+        // this.playerStartFirst=null;
     }
 
 
@@ -219,8 +227,23 @@ export class VierModel extends EventTarget{
     }
 
     showSpeelBord(){
+        var geel = true; //kijken of geel of rood aan zet is
+        var arij = 8;
+        var akolom = 10;
+        var arrVeld = new Array();
+        var rijen;
+        var kolommen;
+        var knopKleur = 'yellow';
+        rijen=prompt("Geef het aantal rijen op : ",6);
+        kolommen=prompt("Geef het aantal kolommen op :",7);
+        arij = rijen;
+        akolom = kolommen;
+        for(i = 0 ; i < akolom; i++){
+            arrVeld[i] = new Array();
+        }
+
         var knop = 0;
-        this.speelbord = speelbord;
+        // this.speelbord = speelbord;
         var strHTML = "<table >";
         strHTML += "<tr>";
         strHTML += "<td align=center width='150'>";
@@ -246,12 +269,6 @@ export class VierModel extends EventTarget{
         divSpel.innerHTML = strHTML;
     }
 
-    prepareTheGame () {
-        this.showSpeelBord();
-        this.initView();
-        this.score = 0;
-        this.playerStartFirst=null;
-    }
 
     score() {
 
