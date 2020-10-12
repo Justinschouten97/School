@@ -1,221 +1,37 @@
 // import {Coin} from './VierModel.js';
 
-
 export class VierModel extends EventTarget {
 
     constructor() {
         super();
 
         this.prepareTheGame();
-        this.initView();
         this.placeCoin();
         this.toonkleur();
-        this.showSpeelBord();
         this.score();
 
         this.controleer();
         this.maakControlBlank();
         this.init();
-
-
-        var geel = true; //kijken of geel of rood aan zet is
-        var arij = 8;
-        var akolom = 10;
-        var arrVeld = new Array();
-        var rijen;
-        var kolommen;
-        var knopKleur = 'yellow';
-        rijen=prompt("Geef het aantal rijen op : ",6);
-        kolommen=prompt("Geef het aantal kolommen op :",7);
-        arij = rijen;
-        akolom = kolommen;
-        for(i = 0 ; i < akolom; i++){
-            arrVeld[i] = new Array();
-
-        }
     }
 
 
     prepareTheGame () {
-        this.showSpeelBord();
-        this.initView();
-        this.score = 0;
+        // this.score = 0;
         // this.playerStartFirst=null;
     }
 
-
-    initView() {
-        this.rootElement.innerHTML = `
-        <div id="title"><h2>4 op 1 rij!</h2></div>
-        <div id="speelBord">
-        
-        <tabel>
-            <td align="center" width="50"><button class="button">1</button></td>
-            <td align="center" width="50"><button class="button">2</button></td>
-            <td align="center" width="50"><button class="button">3</button></td>
-            <td align="center" width="50"><button class="button">4</button></td>
-            <td align="center" width="50"><button class="button">5</button></td>
-            <td align="center" width="50"><button class="button">6</button></td>
-            <td align="center" width="50"><button class="button">7</button></td>
-
-            <br>
-            <br>
-
-            <tr id="form">
-                <td class="tegel" align="center" width="50">
-                    0.0
-                </td>
-                <td>
-                    0.2
-                </td>
-                <td>
-                    0.3
-                </td>
-                <td>
-                    0.4
-                </td>
-                <td>
-                    0.5
-                </td>
-                <td>
-                    0.6
-                </td>
-                <td>
-                    0.7
-                </td>
-            </tr>
-            <br>
-            <tr>
-                <td>
-                    1.0
-                </td>
-                <td>
-                    1.1
-                </td>
-                <td>
-                    1.2
-                </td>
-                <td>
-                    1.3
-                </td>
-                <td>
-                    1.4
-                </td>
-                <td>
-                    1.5
-                </td>
-                <td>
-                    1.6
-                </td>
-            </tr>
-            <br>
-            <tr>
-                <td>
-                    2.0
-                </td>
-                <td>
-                    2.1
-                </td>
-                <td>
-                    2.2
-                </td>
-                <td>
-                    2.3
-                </td>
-                <td>
-                    2.4
-                </td>
-                <td>
-                    2.5
-                </td>
-                <td>
-                    2.6
-                </td>
-            </tr>
-            <br>
-            <tr>
-                <td>
-                    3.0
-                </td>
-                <td>
-                    3.1
-                </td>
-                <td>
-                    3.2
-                </td>
-                <td>
-                    3.3
-                </td>
-                <td>
-                    3.4
-                </td>
-                <td>
-                    3.5
-                </td>
-                <td>
-                    3.6
-                </td>
-            </tr>
-            <br>
-            <tr>
-                <td>
-                    4.0
-                </td>
-                <td>
-                    4.1
-                </td>
-                <td>
-                    4.2
-                </td>
-                <td>
-                    4.3
-                </td>
-                <td>
-                    4.4
-                </td>
-                <td>
-                    4.5
-                </td>
-                <td>
-                    4.6
-                </td>
-            </tr>
-            <br>
-            <tr>
-                <td>
-                    5.0
-                </td>
-                <td>
-                    5.1
-                </td>
-                <td>
-                    5.2
-                </td>
-                <td>
-                    5.3
-                </td>
-                <td>
-                    5.4
-                </td>
-                <td>
-                    5.5
-                </td>
-                <td>
-                    5.6
-                </td>
-            </tr>
-            <br>
-        </tabel>
-        </div>
-        
-        `;
+    colorCoin(){
+        let yellow = 0;
+        let red = 0;
     }
 
+
+
     placeCoin(kolom){
-        var rij = rij;
-        knopKleur = iif(geel,'red','yellow');
-        rij = arrVeld[kolom].push(iif(geel,"geel","rood")) -1;
-        //toonkleur()
+        let knopKleur = iif(geel,'red','yellow');
+        let rij = arrVeld[kolom].push(iif(geel,"geel","rood")) -1;
+        toonkleur();
         toonVeld();
         controleer(kolom,rij);
         toonSpeler();
@@ -225,50 +41,6 @@ export class VierModel extends EventTarget {
         if(kleur  ===  'yellow')knopKleur = 'red';
         else knopKleur = 'yellow';
     }
-
-    showSpeelBord(){
-        var geel = true; //kijken of geel of rood aan zet is
-        var arij = 8;
-        var akolom = 10;
-        var arrVeld = new Array();
-        var rijen;
-        var kolommen;
-        var knopKleur = 'yellow';
-        rijen=prompt("Geef het aantal rijen op : ",6);
-        kolommen=prompt("Geef het aantal kolommen op :",7);
-        arij = rijen;
-        akolom = kolommen;
-        for(i = 0 ; i < akolom; i++){
-            arrVeld[i] = new Array();
-        }
-
-        var knop = 0;
-        // this.speelbord = speelbord;
-        var strHTML = "<table >";
-        strHTML += "<tr>";
-        strHTML += "<td align=center width='150'>";
-        strHTML += "<a href='#any_URL' onMouseOver='handleOver();return true;' onMouseOut='handleOut();return true;'>";
-        strHTML += "<img src='knopInit.gif' width=138 height=37  border=0 img name='imgName'";
-        strHTML += "alt='Klik hier om het raster leeg te maken' onclick='init()'></a></td>";
-        strHTML += "</tr></table><table border='0' cellpadding='2' cellspacing='2'>";
-        strHTML += "<tr>";
-        for(knop = 0 ; knop < akolom ; knop++){
-            strHTML += "<td align=center width='50'><input style='width:'50' type='button' value='" + (knop + 1) +
-                "' style='background:\""+knopKleur+"\"' onclick='placeCoin(" + knop +")'></td>"
-        }
-        strHTML += "</tr></table><table border='1'>";
-
-        for(var rij = arij-1 ; rij >= 0 ; rij--){
-            strHTML += "<tr height='50'>";
-            for(var kolom = 0 ; kolom < akolom ; kolom++){
-                strHTML += "<td width='50' bgcolor='" + maakControl(kolom,rij)+"'>&nbsp</td>"
-            }
-            strHTML += "</tr>"
-        }
-        strHTML += "</table>";
-        divSpel.innerHTML = strHTML;
-    }
-
 
     score() {
 

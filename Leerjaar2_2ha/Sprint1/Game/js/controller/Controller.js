@@ -9,20 +9,18 @@ export class Controller {
         this.vierOpEenRij = new VierModel();
         this.vierOpEenRijView = new VierView(this.vierOpEenRij);
 
-        this.coin = this.vierOpEenRij.placeCoin();
-        this.vierOpEenRijView = new VierView(this.coin);
-
-
         this.vierOpEenRijView.bindStartGame(this.handleStartGame);
+        this.vierOpEenRijView.showSpeelBord();
 
     }
 
-    handleStartGame = () => {
+    handleStartGame = (e) => {
         alert("De game word gestart");
         this.vierOpEenRij.prepareTheGame();
         this.vierOpEenRijView.showSpeelBord();
         // this.vierOpEenRij.updateScore();
     }
+
 
     // handlePlaceCoin = (id) => {
     //     alert(id);
