@@ -1,13 +1,15 @@
 // import {Coin} from './VierModel.js';
 
+
+
 export class VierModel extends EventTarget {
 
     constructor() {
         super();
 
         this.prepareTheGame();
-        this.placeCoin();
-        this.toonkleur();
+        // this.placeCoin();
+        // this.toonkleur();
         this.score();
 
         this.controleer();
@@ -21,17 +23,11 @@ export class VierModel extends EventTarget {
         // this.playerStartFirst=null;
     }
 
-    colorCoin(){
-        let yellow = 0;
-        let red = 0;
-    }
-
-
 
     placeCoin(kolom){
-        let knopKleur = iif(geel,'red','yellow');
+        knopKleur = iif(geel,'red','yellow');
         let rij = arrVeld[kolom].push(iif(geel,"geel","rood")) -1;
-        toonkleur();
+        // toonkleur()
         toonVeld();
         controleer(kolom,rij);
         toonSpeler();

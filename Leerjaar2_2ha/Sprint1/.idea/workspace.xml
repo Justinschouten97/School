@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c237368e-6241-45a0-98f5-32414f27c917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/Hoofdstuk_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_15.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +46,21 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hAtvPZdxYJtOw6fsUpmfgCRuqp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHPdeel1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Game" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -116,7 +123,7 @@
       <workItem from="1601275545090" duration="24716000" />
       <workItem from="1601493032055" duration="93000" />
       <workItem from="1601493145028" duration="5667000" />
-      <workItem from="1601516801962" duration="1990000" />
+      <workItem from="1601516801962" duration="2970000" />
     </task>
     <servers />
   </component>
@@ -136,6 +143,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="957" y="129" key="#CLI_Interpreters" timestamp="1600678435921">
       <screen x="0" y="0" width="1920" height="943" />
@@ -145,9 +155,10 @@
       <screen x="0" y="0" width="1920" height="943" />
     </state>
     <state x="1084" y="117" key="#PHP/0.0.1920.943@0.0.1920.943" timestamp="1600672910235" />
-    <state x="1156" y="229" key="FileChooserDialogImpl" timestamp="1600678417017">
-      <screen x="0" y="0" width="1920" height="943" />
+    <state x="925" y="200" key="FileChooserDialogImpl" timestamp="1601559744911">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="925" y="200" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601559744911" />
     <state x="1156" y="229" key="FileChooserDialogImpl/0.0.1920.943@0.0.1920.943" timestamp="1600678417017" />
     <state x="555" y="104" key="SettingsEditor" timestamp="1601220167001">
       <screen x="0" y="0" width="1536" height="824" />
