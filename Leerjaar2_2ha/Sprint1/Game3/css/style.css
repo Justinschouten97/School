@@ -6,7 +6,7 @@
 
 body {
     align-items: center;
-    background: black;
+    background: white;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -16,7 +16,6 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: white;
 }
 
 .game-board {
@@ -38,7 +37,7 @@ h1 {
 }
 
 .cell::after {
-    background: black;
+    background: white;
     border-radius: 50%;
     border: 3px solid black;
     content: '';
@@ -63,7 +62,7 @@ h1 {
 }
 
 .cell.row-top {
-    background: black;
+    background: white;
 }
 
 .cell.row-top::after {
