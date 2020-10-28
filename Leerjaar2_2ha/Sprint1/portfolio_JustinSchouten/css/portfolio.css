@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#blokje{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    font-family: "Arial";
+}
+
+#tabel{
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+#sub{
+    margin: 3%;
+}
+
+h2{
+
+}
+
+th,td{
+    padding: 30px;
+}
+
+th{
+    background: darkblue;
+    color: white;
+}
+
+td{
+    background: steelblue;
+}
+
+#text_Motivatie{
+    width: 700px;
+    height: 700px;
+    background: white;
+    display: table-cell;
+    vertical-align: middle;
+
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#text_Motivatie:hover{
+    background-color: rgba(255,255,255,0.09);
+    color: darkblue;
+    border-radius: 50%;
+    border: 3px darkblue dotted;
+
+
+    animation-name: revrevolutie;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text_Eigenschappen{
+    width: 700px;
+    height: 700px;
+    background: white;
+    display: table-cell;
+    vertical-align: middle;
+
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#text_Eigenschappen:hover{
+    background-color: rgba(255,255,255,0.09);
+    color: darkblue;
+    border-radius: 50%;
+    border: 3px darkblue dotted;
+
+
+    animation-name: revolutie;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes revolutie {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+@keyframes revrevolutie {
+    from {transform: rotate(360deg)}
+    to {transform: rotate(0deg)}
+}
+
+
+
+
+#footer{
+    margin: 5%;
+    border-top: 3px solid black;
+}
