@@ -1,11 +1,6 @@
 <?php
 
 namespace view;
-//include_once('model/Model.php');
-//include_once('model/Patient.php');
-//include_once('model/Arts.php');
-//include_once('model/Medicijn.php');
-
 
 class View
 {
@@ -48,10 +43,12 @@ class View
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Patienten overzicht</h2> <form action='index.php' method='post'>
+        echo "<br>";
+        echo "<h2 class=\"text-center\">Patienten overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
-                               <input type='submit' value='toevoegen'/>
-                               </form></div></body></html>";
+                               <input class='btn btn-block' type='submit' value='toevoegen'/>
+                               </form></div></body><br></html>";
+
         if ($patienten !== null) {
             echo "
                         <div id=\"patienten\">";
@@ -81,10 +78,10 @@ class View
         echo "</div>";
 
     }
-    public function showFormPatienten($patientID = null)
+    public function showFormPatienten($id = null)
     {
-        if ($patientID != null && $patientID != 0) {
-            $patient = $this->model->selectPatient($patientID);
+        if ($id != null && $id != 0) {
+            $patient = $this->model->selectPatient($id);
         }
         /*de html template */
         echo "<!DOCTYPE html>
@@ -99,24 +96,24 @@ class View
             echo "<form method='post' >
         <table>
             <tr><td></td><td>
-                <input type=\"hidden\" name=\"id\" value='$patientID'/></td></tr>
+                <input type=\"hidden\" name=\"id\" value='$id'/></td></tr>
              <tr><td>   <label for=\"naam\">Patient naam</label></td><td>
-                <input type=\"text\" name=\"naam\" value= '" . $patient->naam . "'/></td></tr>
+                <input type=\"text\" name=\"naam\" value= '".$patient->naam."'/></td></tr>
             <tr><td>
                 <label for=\"adres\">adres</label></td><td>
-                <input type=\"text\" name=\"adres\" value = '" . $patient->adres . "'/></td></tr>
+                <input type=\"text\" name=\"adres\" value = '".$patient->adres."'/></td></tr>
             <tr><td>
                 <label for=\"woonplaats\">woonplaats</label></td><td>
-                <input type=\"text\" name=\"woonplaats\" value= '" . $patient->woonplaats . "'/></td></tr>
+                <input type=\"text\" name=\"woonplaats\" value= '".$patient->woonplaats."'/></td></tr>
             <tr><td>
                 <label for=\"geboortedatum\">geboortedatum</label></td><td>
-                <input type=\"text\" name=\"geboortedatum\" value= '" . $patient->geboortedatum . "'/></td></tr>
+                <input type=\"text\" name=\"geboortedatum\" value= '".$patient->geboortedatum."'/></td></tr>
             <tr><td>
                 <label for=\"zknummer\">zknummer</label></td><td>
-                <input type=\"text\" name=\"zknummer\" value= '" . $patient->zknummer . "'/></td></tr>
+                <input type=\"text\" name=\"zknummer\" value= '".$patient->zknummer."'/></td></tr>
                  <tr><td>
                 <label for=\"soortverzekering\">soortverzekering</label></td><td>
-                <input type=\"text\" name=\"soortverzekering\" value= '" . $patient->soortverzekering . "'/></td></tr>
+                <input type=\"text\" name=\"soortverzekering\" value= '".$patient->soortverzekering."'/></td></tr>
             <tr><td>
                 <input type='submit' name='update' value='opslaan'></td><td>
             </td></tr></table>
@@ -188,10 +185,11 @@ class View
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Artsen overzicht</h2> <form action='index.php' method='post'>
+        echo "<br>";
+        echo "<h2 class=\"text-center\">Artsen overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
-                               <input type='submit' value='toevoegen'/>
-                               </form></div></body></html>";
+                               <input class='btn btn-block' type='submit' value='toevoegen'/>
+                               </form></div></body><br></html>";
         if ($artsen !== null) {
             echo "
                         <div id=\"artsen\">";
@@ -251,28 +249,28 @@ class View
             <tr><td></td><td>
                 <input type=\"hidden\" name=\"artsID\" value='$artsID'/></td></tr>
              <tr><td>   <label for=\"voornaam\">Arts voornaam</label></td><td>
-                <input type=\"text\" name=\"voornaam\" value= '" . $arts->voornaam . "'/></td></tr>
+                <input type=\"text\" name=\"voornaam\" value= '".$arts->voornaam."'/></td></tr>
             <tr><td>
                 <label for=\"achternaam\">achternaam</label></td><td>
-                <input type=\"text\" name=\"achternaam\" value = '" . $arts->achternaam . "'/></td></tr>
+                <input type=\"text\" name=\"achternaam\" value = '".$arts->achternaam."'/></td></tr>
             <tr><td>
                 <label for=\"soortarts\">soortarts</label></td><td>
-                <input type=\"text\" name=\"soortarts\" value= '" . $arts->soortarts . "'/></td></tr>
+                <input type=\"text\" name=\"soortarts\" value= '".$arts->soortarts."'/></td></tr>
             <tr><td>
                 <label for=\"straat\">straat</label></td><td>
-                <input type=\"text\" name=\"straat\" value= '" . $arts->straat . "'/></td></tr>
+                <input type=\"text\" name=\"straat\" value= '".$arts->straat."'/></td></tr>
             <tr><td>
                 <label for=\"postcode\">postcode</label></td><td>
-                <input type=\"text\" name=\"postcode\" value= '" . $arts->postcode . "'/></td></tr>
+                <input type=\"text\" name=\"postcode\" value= '".$arts->postcode."'/></td></tr>
                  <tr><td>
                 <label for=\"plaats\">plaats</label></td><td>
-                <input type=\"text\" name=\"plaats\" value= '" . $arts->plaats . "'/></td></tr>
+                <input type=\"text\" name=\"plaats\" value= '".$arts->plaats."'/></td></tr>
             <tr><td>
                 <label for=\"email\">email</label></td><td>
-                <input type=\"text\" name=\"email\" value= '" . $arts->email . "'/></td></tr>
+                <input type=\"text\" name=\"email\" value= '".$arts->email."'/></td></tr>
                  <tr><td>
                 <label for=\"telefoonnummer\">telefoonnummer</label></td><td>
-                <input type=\"text\" name=\"telefoonnummer\" value= '" . $arts->telefoonnummer . "'/></td></tr>
+                <input type=\"text\" name=\"telefoonnummer\" value= '".$arts->telefoonnummer."'/></td></tr>
             <tr><td>
                 <input type='submit' name='update' value='opslaan'></td><td>
             </td></tr></table>
@@ -350,10 +348,11 @@ class View
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Medicijnen overzicht</h2> <form action='index.php' method='post'>
+        echo "<br>";
+        echo "<h2 class=\"text-center\">Medicijnen overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
-                               <input type='submit' value='toevoegen'/>
-                               </form></div></body></html>";
+                               <input class='btn btn-block' type='submit' value='toevoegen'/>
+                               </form></div></body><br></html>";
         if ($medicijnen !== null) {
             echo "
                         <div id=\"medicijnen\">";
@@ -403,13 +402,13 @@ class View
             <tr><td></td><td>
                 <input type=\"hidden\" name=\"medicijnID\" value='$medicijnID'/></td></tr>
              <tr><td>   <label for=\"medicijnNaam\">Medicijn naam</label></td><td>
-                <input type=\"text\" name=\"medicijnNaam\" value= '" . $medicijn->medicijnNaam . "'/></td></tr>
+                <input type=\"text\" name=\"medicijnNaam\" value= '".$medicijn->medicijnNaam."'/></td></tr>
             <tr><td>
                 <label for=\"medicijnWerking\">Medicijn Werking</label></td><td>
-                <input type=\"text\" name=\"medicijnWerking\" value = '" . $medicijn->medicijnWerking . "'/></td></tr>
+                <input type=\"text\" name=\"medicijnWerking\" value = '".$medicijn->medicijnWerking."'/></td></tr>
             <tr><td>
                 <label for=\"medicijnBijwerking\">Medicijn Bijwerking</label></td><td>
-                <input type=\"text\" name=\"medicijnBijwerking\" value= '" . $medicijn->medicijnBijwerking . "'/></td></tr>
+                <input type=\"text\" name=\"medicijnBijwerking\" value= '".$medicijn->medicijnBijwerking."'/></td></tr>
             <tr><td>
                 <input type='submit' name='update' value='opslaan'></td><td>
             </td></tr></table>
@@ -472,10 +471,11 @@ class View
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Recepten overzicht</h2> <form action='index.php' method='post'>
+        echo "<br>";
+        echo "<h2 class=\"text-center\">Recepten overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
-                               <input type='submit' value='toevoegen'/>
-                               </form></div></body></html>";
+                               <input class='btn btn-block' type='submit' value='toevoegen'/>
+                               </form></div></body><br></html>";
         if ($recepten !== null) {
             echo "
                         <div id=\"recepten\">";
@@ -485,7 +485,7 @@ class View
                       <h5>Recept ID:</h5>                 
                       $recept->receptID<br />
                       <h5>Patient ID:</h5>
-                      $recept->patientenID<br />
+                      $recept->id<br />
                       <h5>Medicijn ID:</h5>
                       $recept->medicijnID<br />
                       <h5>Dosis:</h5>
@@ -536,18 +536,18 @@ class View
             <tr><td></td><td>
             <input type=\"hidden\" name=\"receptID\" value='$receptID'/></td></tr>
              <tr><td>   <label for=\"receptID\">Recept ID</label></td><td>
-                <input type=\"text\" name=\"receptID\" value= '" . $receptID->receptenID . "'/></td></tr>
+                <input type=\"text\" name=\"receptID\" value= '".$receptID->receptenID."'/></td></tr>
             <tr><td>
-            <input type=\"hidden\" name=\"patientID\" value='$patientenID'/></td></tr>
-             <tr><td>   <label for=\"patientID\">Patient ID</label></td><td>
-                <input type=\"text\" name=\"patientID\" value= '" . $patientID->patientID . "'/></td></tr>
+            <input type=\"hidden\" name=\"id\" value='$id'/></td></tr>
+             <tr><td>   <label for=\"id\">Patient ID</label></td><td>
+                <input type=\"text\" name=\"id\" value= '".$id->id."'/></td></tr>
             <tr><td>
                 <input type=\"hidden\" name=\"medicijnID\" value='$medicijnID'/></td></tr>
              <tr><td>   <label for=\"medicijnID\">Medicijn ID</label></td><td>
-                <input type=\"text\" name=\"medicijnID\" value= '" . $medicijnID->medicijnID . "'/></td></tr>
+                <input type=\"text\" name=\"medicijnID\" value= '".$medicijnID->medicijnID."'/></td></tr>
             <tr><td>
                 <label for=\"medicijnDosis\">Medicijn Dosis</label></td><td>
-                <input type=\"text\" name=\"medicijnDosis\" value = '" . $medicijnDosis->medicijnWerking . "'/></td></tr>
+                <input type=\"text\" name=\"medicijnDosis\" value = '".$medicijnDosis->medicijnWerking."'/></td></tr>
             <tr><td>
              
                 <input type='submit' name='update' value='opslaan'></td><td>

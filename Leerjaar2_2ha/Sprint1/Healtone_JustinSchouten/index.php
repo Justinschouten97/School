@@ -42,7 +42,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
         <h1>Hello, <?php echo $_SESSION['name'] ?></h1>
     </div>
 
+
     <a class="btn btn-danger btn-block" href="zExtra/templates/login-system/logout.php">Logout</a>
+    <hr>
+    <br>
 
     <div class="col-4">
 

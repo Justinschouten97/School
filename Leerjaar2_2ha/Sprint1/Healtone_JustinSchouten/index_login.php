@@ -19,28 +19,24 @@
             integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
             crossorigin="anonymous"></script>
 
-    <!-- Bootstrap CSS -->
-    <!--        <link rel="stylesheet" href="../../css/bootstrap-grid.css">-->
-    <!--    <link rel="stylesheet" href="../../css/global.css">-->
-    <!--    <link rel="stylesheet" href="../../js/bootstrap.min.js">-->
     <title>Login Scherm</title>
 </head>
 <body>
-<!--<h1 class="title"><img src="#" alt="">Welcome to my home page!</h1>-->
 
 <div class="container-fluid bg">
     <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-md-4 col-sm-4 col-xs-12">
             <!--form start-->
             <form class="form-container" action="zExtra/templates/login-system/login.php" method="post">
 
                 <div class="form-group">
-                    <h2>LOGIN</h2>
+                    <h2>Login Healtone</h2>
                     <?php if (isset($_GET['error'])) { ?>
                         <p class="error"><?php echo $_GET['error'] ?></p>
                     <?php } ?>
                 </div>
+
+                <div class="text-info"></div>
 
                 <div class="form-group text-donker">
                     <label>User Name</label>
@@ -60,13 +56,25 @@
 
                 <button type="submit" class="btn btn-success btn-block">Login</button>
 
+                <br>
+
+                <div class="alert-info">
+                    <a class="btn btn-info btn-block" href="zExtra/templates/regForm/index.php">Registreren</a>
+                </div>
+
             </form>
             <!--form end-->
         </div>
     </div>
+    <footer class="card-footer">
+        <div class="row">
+            <div class="col">
+                <p class="text-center">
+                    Copyright Healtone - (C) 2020 Justin Schouten
+                </p>
+            </div>
+        </div>
+    </footer>
 </div>
-<div class="col-md-4 col-sm-4 col-xs-12"></div>
-</div>
-
 </body>
 </html>

@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414dbeb5-0fdd-4d7e-83f9-8bffd075f953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Recept.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/img/bg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/login-system/db_conn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/login-system/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/login-system/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/login-system/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/regForm/conn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/regForm/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zExtra/templates/regForm/processForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zExtra/css/styles_home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zExtra/css/styles_regForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zExtra/img/bg5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Frontend/Scrum/Sprint1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Frontend/Scrum/Sprint1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Frontend/Scrum/Sprint1/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Frontend/Scrum/Sprint1/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
@@ -50,18 +21,16 @@
       <change beforePath="$PROJECT_DIR$/../Game4/js/model/VierModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game4/js/model/VierModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Game4/js/view/VierView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game4/js/view/VierView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HealtOne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HealtOne/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Healtone_JustinSchouten.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Healtone_JustinSchouten.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Patient.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Patient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/arts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/medicijn.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/patient.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/loginform.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/templates/login-system/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/templates/login-system/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/templates/login-system/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/templates/login-system/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/templates/regForm/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/templates/regForm/conn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/templates/regForm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/templates/regForm/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zExtra/templates/regForm/processForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/zExtra/templates/regForm/processForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../memoryGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../memoryGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../php_ao2_Healtone_JustinSchouten/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php_ao2_Healtone_JustinSchouten/Index.php" afterDir="false" />
@@ -114,19 +83,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten" />
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\zExtra" />
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\css" />
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\templates" />
-      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\php" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\img" />
       <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\css" />
       <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\model" />
       <recent name="C:\Users\JScho\PhpstormProjects\Healtone_JustinSchouten\php" />
       <recent name="C:\Users\JScho\PhpstormProjects\Healtone_JustinSchouten\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\zExtra\templates" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\zExtra\img" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\zExtra" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Healtone_JustinSchouten\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,7 +114,8 @@
       <workItem from="1606170933789" duration="1718000" />
       <workItem from="1606495676723" duration="52000" />
       <workItem from="1606495803419" duration="1298000" />
-      <workItem from="1606499270807" duration="28450000" />
+      <workItem from="1606499270807" duration="29615000" />
+      <workItem from="1606738854562" duration="14304000" />
     </task>
     <servers />
   </component>
@@ -160,10 +130,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="860" y="58" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1605118543818" />
-    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1606694055936">
+    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606755275965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606694055936" />
+    <state x="883" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606755275965" />
+    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1606768131893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606768131893" />
     <state x="882" y="138" key="NewPhpClassDialog" timestamp="1605118076235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
