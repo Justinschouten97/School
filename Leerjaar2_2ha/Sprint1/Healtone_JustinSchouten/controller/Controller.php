@@ -3,9 +3,7 @@
 namespace controller;
 include_once "view/View.php";
 use view\View;
-include_once "model/Patient.php";
-//include_once "model/Arts.php";
-//include "model/Model.php";
+include "model/Model.php";
 use model\Model;
 
 class Controller
@@ -119,5 +117,50 @@ class Controller
     public function deleteMedicijnAction($medicijnID){
         $result = $this->model->deleteMedicijn($medicijnID);
         $this->view->showMedicijnen($result);
+    }
+
+    // recept
+    public function readReceptenAction(){
+        $this->view->showRecepten();
+    }
+
+    public function showFormReceptAction($receptID=null){
+        $this->view->showFormRecepten($receptID);
+    }
+    public function createReceptAction(){
+        $receptID = filter_input(INPUT_POST,'receptID');
+        $patientID = filter_input(INPUT_POST,'patientID');
+        $medicijnenID = filter_input(INPUT_POST,'medicijnID');
+        $medicijnDosis = filter_input(INPUT_POST,'medicijnDosis');
+        $medicijnDuur = filter_input(INPUT_POST,'medicijnDuur');
+        $receptHerhalingen = filter_input(INPUT_POST,'receptHerhalingen');
+        $receptUitgeschreven = filter_input(INPUT_POST,'receptUitgeschreven');
+        $receptOpgehaald = filter_input(INPUT_POST,'receptOpgehaald');
+        $artsID = filter_input(INPUT_POST,'artsID');
+
+        $result = $this->model->insertRecept($receptID,$patientID,$medicijnenID,$medicijnDosis,
+                                             $medicijnDuur,$receptHerhalingen,$receptUitgeschreven,
+                                             $receptOpgehaald, $artsID);
+        $this->view->showRecepten($result);
+    }
+    public function updateReceptAction(){
+        $receptID = filter_input(INPUT_POST,'receptID');
+        $patientID = filter_input(INPUT_POST,'patientID');
+        $medicijnID = filter_input(INPUT_POST,'medicijnID');
+        $medicijnDosis = filter_input(INPUT_POST,'medicijnDosis');
+        $medicijnDuur = filter_input(INPUT_POST,'medicijnDuur');
+        $receptHerhalingen = filter_input(INPUT_POST,'receptHerhalingen');
+        $receptUitgeschreven = filter_input(INPUT_POST,'receptUitgeschreven');
+        $receptOpgehaald = filter_input(INPUT_POST,'receptOpgehaald');
+        $artsID = filter_input(INPUT_POST,'artsID');
+
+        $result = $this->model->updateRecept($receptID,$patientID,$medicijnID,$medicijnDosis,
+            $medicijnDuur,$receptHerhalingen,$receptUitgeschreven,
+            $receptOpgehaald, $artsID);
+        $this->view->showRecepten($result);
+    }
+    public function deleteReceptAction($receptID){
+        $result = $this->model->deleteRecept($receptID);
+        $this->view->showRecepten($result);
     }
 }

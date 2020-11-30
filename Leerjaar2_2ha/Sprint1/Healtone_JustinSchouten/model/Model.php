@@ -4,6 +4,7 @@ namespace model;
 include_once ('model/Patient.php');
 include_once ('model/Arts.php');
 include_once ('model/Medicijn.php');
+include_once ('model/Recept.php');
 
 class Model
 {
@@ -143,7 +144,7 @@ class Model
         return $result;
     }
 
-    public function getArts(){
+    public function getArtsen(){
 
         $this->makeConnection();
         $selection = $this->database->query('SELECT * FROM `artsen`');
@@ -247,6 +248,87 @@ class Model
             'DELETE FROM `medicijnen` 
             WHERE `medicijnen`.`medicijnID` =:medicijnID');
         $selection->bindParam(":medicijnID",$medicijnID);
+        $result = $selection ->execute();
+        return $result;
+    }
+    //----------------------------------------------------------
+
+    //----------------------------------------------------------
+    // recept
+    public function insertRecept($receptID,$patientID,$medicijnID,$medicijnDosis,$medicijnDuur,$receptHerhalingen,$receptUitgeschreven,$receptOpgehaald, $artsID){
+        $this->makeConnection();
+        if($receptID !='')
+        {
+            $query = $this->database->prepare (
+                "INSERT INTO `recepten` (`receptID`, `patientID`, `medicijnID`, `medicijnDosis`, `medicijnDuur`, `receptHerhalingen`, `receptUitgeschreven`
+                                        `receptOpgehaald`, `artsID`) 
+                VALUES (NULL, :receptID, :patientID, :medicijnID, :medicijnDosis, :medicijnDuur, :receptHerhalingen, :receptUitgeschreven, :receptOpgehaald, :artsID");
+            $query->bindParam(":receptID", $receptID);
+            $query->bindParam(":patientID", $patientID);
+            $query->bindParam(":medicijnID", $medicijnID);
+            $query->bindParam(":medicijnDosis", $medicijnDosis);
+            $query->bindParam(":medicijnDuur",$medicijnDuur);
+            $query->bindParam(":receptHerhalingen", $receptHerhalingen);
+            $query->bindParam(":receptUitgeschreven", $receptUitgeschreven);
+            $query->bindParam(":receptOpgehaald", $receptOpgehaald);
+            $query->bindParam(":artsID", $artsID);
+
+            $result = $query->execute();
+            return $result;
+        }
+        return -1;
+        // id hoeft niet te worden toegevoegd omdat de id in de databse op autoincrement staat.
+
+
+    }
+    public function updateRecept($receptID,$patientID,$medicijnID,$medicijnDosis,$medicijnDuur,$receptHerhalingen,$receptUitgeschreven,$receptOpgehaald, $artsID){
+        $this->makeConnection();
+
+        // id moet worden toegevoegd omdat de id in de databse wordt gezocht
+        $query->bindParam(":receptID", $receptID);
+        $query->bindParam(":patientID", $patientID);
+        $query->bindParam(":medicijnID", $medicijnID);
+        $query->bindParam(":medicijnDosis", $medicijnDosis);
+        $query->bindParam(":medicijnDuur",$medicijnDuur);
+        $query->bindParam(":receptHerhalingen", $receptHerhalingen);
+        $query->bindParam(":receptUitgeschreven", $receptUitgeschreven);
+        $query->bindParam(":receptOpgehaald", $receptOpgehaald);
+        $query->bindParam(":artsID", $artsID);
+        $result = $query->execute();
+        return $result;
+    }
+
+    public function getRecepten(){
+
+        $this->makeConnection();
+        $selection = $this->database->query('SELECT * FROM `recepten`');
+        if($selection){
+            $result=$selection->fetchAll(\PDO::FETCH_CLASS,\model\Recept::class);
+            return $result;
+        }
+        return null;
+    }
+    public function selectRecept($receptID){
+
+        $this->makeConnection();
+        $selection = $this->database->prepare(
+            'SELECT * FROM `recepten` 
+            WHERE `recepten`.`receptID` =:receptID');
+        $selection->bindParam(":receptID",$receptID);
+        $result = $selection ->execute();
+        if($result){
+            $selection->setFetchMode(\PDO::FETCH_CLASS, \model\Recept::class);
+            $recept = $selection->fetch();
+            return $recept;
+        }
+        return null;
+    }
+    public function deleteRecept($receptID){
+        $this->makeConnection();
+        $selection = $this->database->prepare(
+            'DELETE FROM `recepten` 
+            WHERE `recepten`.`receptID` =:receptID');
+        $selection->bindParam(":receptID",$receptID);
         $result = $selection ->execute();
         return $result;
     }

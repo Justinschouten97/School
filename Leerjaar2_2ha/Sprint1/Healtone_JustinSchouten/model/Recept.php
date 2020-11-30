@@ -2,16 +2,17 @@
 
 namespace model;
 
-
-class Patient
+class Recept
 {
+    private $receptID;
     private $patientID;
-    private $naam;
-    private $adres;
-    private $woonplaats;
-    private $zknummer;
-    private $geboortedatum;
-    private $soortverzekering;
+    private $medicijnID;
+    private $medicijnDosis;
+    private $medicijnDuur;
+    private $receptHerhalingen;
+    private $receptUitgeschreven;
+    private $receptOpgehaald;
+    private $artsID;
 
     public function __get($property) {
         if (property_exists($this, $property)) {
@@ -25,5 +26,4 @@ class Patient
         }
         return $this;
     }
-
 }

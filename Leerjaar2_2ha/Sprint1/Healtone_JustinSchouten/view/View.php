@@ -1,7 +1,7 @@
 <?php
 
 namespace view;
-include_once('model/Model.php');
+//include_once('model/Model.php');
 //include_once('model/Patient.php');
 //include_once('model/Arts.php');
 //include_once('model/Medicijn.php');
@@ -33,22 +33,22 @@ class View
                         #patienten{
                             display:grid;
                             grid-template-columns:repeat(4,1fr);                
-                            grid-column-gap:10px;
-                            grid-row-gap:10px;
+                            grid-column-gap:2px;
+                            grid-row-gap:2px;
                             justify-content: center;
                         }
                         .patient{
                             width:80%;
                             background-color:#ccccff;
                             color:darkslategray;
-                            font-size:24px;
+                            font-size:12px;
                             padding:10px;
                             border-radius:10px;
                         }
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Patienten overzicht</h2> <form action='patient.php' method='post'>
+        echo "<h2>Patienten overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
                                <input type='submit' value='toevoegen'/>
                                </form></div></body></html>";
@@ -57,28 +57,34 @@ class View
                         <div id=\"patienten\">";
             foreach ($patienten as $patient) {
                 echo "<div class=\"patient\">
-                                       
+                      <h5>Naam:</h5>                 
                       $patient->naam<br />
+                      <h5>Adres:</h5>
                       $patient->adres<br />
+                      <h5>Woonplaats:</h5>
                       $patient->woonplaats<br />
+                      <h5>ZKnummer: </h5>
                       $patient->zknummer<br />
+                      <h5>Geboorte datum:</h5>
                       $patient->geboortedatum<br />
+                      <h5>Soort verzekering:</h5>
                       $patient->soortverzekering<br />
-                      <form action='patient.php' method='post'>
+                      <form action='index.php' method='post'>
                        <input type='hidden' name='showForm' value='$patient->id'><input type='submit' value='wijzigen'/></form>
-                        <form action='patient.php' method='post'>
+                        <form action='index.php' method='post'>
                        <input type='hidden' name='delete' value='$patient->id'><input type='submit' value='verwijderen'/></form>
                     </div>";
             }
         } else {
             echo "Geen patienten gevonden";
         }
+        echo "</div>";
 
     }
-    public function showFormPatienten($id = null)
+    public function showFormPatienten($patientID = null)
     {
-        if ($id != null && $id != 0) {
-            $patient = $this->model->selectPatient($id);
+        if ($patientID != null && $patientID != 0) {
+            $patient = $this->model->selectPatient($patientID);
         }
         /*de html template */
         echo "<!DOCTYPE html>
@@ -89,18 +95,11 @@ class View
         </head><body>
         <h2>Formulier patientgegevens</h2>";
 
-        echo "><li>Arts</li></a>
-                <a href=><li>Patient</li></a>
-            </ul>
-        </div>
-        
-        ";
-
         if (isset($patient)) {
             echo "<form method='post' >
         <table>
             <tr><td></td><td>
-                <input type=\"hidden\" name=\"id\" value='$id'/></td></tr>
+                <input type=\"hidden\" name=\"id\" value='$patientID'/></td></tr>
              <tr><td>   <label for=\"naam\">Patient naam</label></td><td>
                 <input type=\"text\" name=\"naam\" value= '" . $patient->naam . "'/></td></tr>
             <tr><td>
@@ -126,7 +125,7 @@ class View
         </html>";
         } else {
             /*de html template */
-            echo "<form method='post' action='patient.php'>
+            echo "<form method='post' action='index.php'>
         <table>
             <tr><td></td><td>
                 <input type=\"hidden\" name=\"id\" value=''/></td></tr>
@@ -174,22 +173,22 @@ class View
                         #artsen{
                             display:grid;
                             grid-template-columns:repeat(4,1fr);                
-                            grid-column-gap:10px;
-                            grid-row-gap:10px;
+                            grid-column-gap:2px;
+                            grid-row-gap:2px;
                             justify-content: center;
                         }
                         .arts{
                             width:80%;
-                            background-color: dimgray;
+                            background-color: lightgray;
                             color:darkslategray;
-                            font-size:24px;
+                            font-size:12px;
                             padding:10px;
                             border-radius:10px;
                         }
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Artsen overzicht</h2> <form action='arts.php' method='post'>
+        echo "<h2>Artsen overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
                                <input type='submit' value='toevoegen'/>
                                </form></div></body></html>";
@@ -198,25 +197,35 @@ class View
                         <div id=\"artsen\">";
             foreach ($artsen as $arts) {
                 echo "<div class=\"arts\">
-                                       
+                      
+                      <h5>Arts ID:</h5>                 
                       $arts->artsID<br />
+                      <h5>Voornaam:</h5>
                       $arts->voornaam<br />
+                      <h5>Achternaam:</h5>
                       $arts->achternaam<br />
+                      <h5>Soort arts:</h5>
                       $arts->soortarts<br />
+                      <h5>Straat:</h5>
                       $arts->straat<br />
+                      <h5>Postcode:</h5>
                       $arts->postcode<br />
+                      <h5>Plaats:</h5>
                       $arts->plaats<br />
+                      <h5>Email:</h5>
                       $arts->email<br />
+                      <h5>Telefoonnummer:</h5>
                       $arts->telefoonnummer<br />
-                      <form action='arts.php' method='post'>
+                      <form action='index.php' method='post'>
                        <input type='hidden' name='showForm' value='$arts->artsenID'><input type='submit' value='wijzigen'/></form>
-                        <form action='arts.php' method='post'>
+                        <form action='index.php' method='post'>
                        <input type='hidden' name='delete' value='$arts->artsenID'><input type='submit' value='verwijderen'/></form>
                     </div>";
             }
         } else {
             echo "Geen artsen gevonden";
         }
+        echo "</div>";
 
     }
     public function showFormArtsen($artsID = null)
@@ -272,7 +281,7 @@ class View
         </html>";
         } else {
             /*de html template */
-            echo "<form method='post' action='arts.php'>
+            echo "<form method='post' action='index.php'>
         <table>
             <tr><td></td><td>
                 <input type=\"hidden\" name=\"artsID\" value=''/></td></tr>
@@ -326,22 +335,22 @@ class View
                         #medicijnen{
                             display:grid;
                             grid-template-columns:repeat(4,1fr);                
-                            grid-column-gap:10px;
-                            grid-row-gap:10px;
+                            grid-column-gap:2px;
+                            grid-row-gap:2px;
                             justify-content: center;
                         }
                         .medicijn{
                             width:80%;
                             background-color: dimgray;
                             color:darkslategray;
-                            font-size:24px;
+                            font-size:12px;
                             padding:10px;
                             border-radius:10px;
                         }
                     </style>
                 </head>
                 <body>";
-        echo "<h2>Medicijnen overzicht</h2> <form action='medicijn.php' method='post'>
+        echo "<h2>Medicijnen overzicht</h2> <form action='index.php' method='post'>
                                <input type='hidden' name='showForm' value='0'>
                                <input type='submit' value='toevoegen'/>
                                </form></div></body></html>";
@@ -350,22 +359,26 @@ class View
                         <div id=\"medicijnen\">";
             foreach ($medicijnen as $medicijn) {
                 echo "<div class=\"medicijn\">
-                                       
+                      
+                      <h5>Medicijn ID:</h5>                 
                       $medicijn->medicijnID<br />
+                      <h5>Naam:</h5>
                       $medicijn->medicijnNaam<br />
+                      <h5>Werking:</h5>
                       $medicijn->medicijnWerking<br />
+                      <h5>Bijwerking:</h5>
                       $medicijn->medicijnBijwerking<br />
  
-                      <form action='medicijn.php' method='post'>
+                      <form action='index.php' method='post'>
                        <input type='hidden' name='showForm' value='$medicijn->medicijnenID'><input type='submit' value='wijzigen'/></form>
-                        <form action='medicijn.php' method='post'>
+                        <form action='index.php' method='post'>
                        <input type='hidden' name='delete' value='$medicijn->medicijnenID'><input type='submit' value='verwijderen'/></form>
                     </div>";
             }
         } else {
             echo "Geen medicijnen gevonden";
         }
-
+        echo "</div>";
     }
     public function showFormMedicijnen($medicijnID = null)
     {
@@ -405,7 +418,7 @@ class View
         </html>";
         } else {
             /*de html template */
-            echo "<form method='post' action='medicijn.php'>
+            echo "<form method='post' action='index.php'>
         <table>
             <tr><td></td><td>
                 <input type=\"hidden\" name=\"medicijnID\" value=''/></td></tr>
@@ -417,6 +430,148 @@ class View
             <tr><td>
                 <label for=\"medicijnBijwerking\">Medicijn Bijwerking</label></td><td>
                 <input type=\"text\" name=\"medicijnBijwerking\" value= ''/></td></tr>
+            <tr><td>
+                <input type='submit' name='create' value='opslaan'></td><td>
+            </td></tr></table>
+            </form>
+        </body>
+        </html>";
+        }
+    }
+
+    // recepten
+    public function showRecepten($result = null)
+    {
+        if ($result == 1) {
+            echo "<h4>Actie geslaagd</h4>";
+        }
+        $recepten = $this->model->getRecepten();
+
+        /*de html template */
+        echo "<!DOCTYPE html>
+                <html lang=\"en\">
+                <head>
+                    <meta charset=\"UTF-8\">
+                    <title>Overzicht recepten</title>
+                    <style>
+                        #recepten{
+                            display:grid;
+                            grid-template-columns:repeat(4,1fr);                
+                            grid-column-gap:2px;
+                            grid-row-gap:2px;
+                            justify-content: center;
+                        }
+                        .recept{
+                            width:80%;
+                            background-color: indianred;
+                            color:darkslategray;
+                            font-size:12px;
+                            padding:10px;
+                            border-radius:10px;
+                        }
+                    </style>
+                </head>
+                <body>";
+        echo "<h2>Recepten overzicht</h2> <form action='index.php' method='post'>
+                               <input type='hidden' name='showForm' value='0'>
+                               <input type='submit' value='toevoegen'/>
+                               </form></div></body></html>";
+        if ($recepten !== null) {
+            echo "
+                        <div id=\"recepten\">";
+            foreach ($recepten as $recept) {
+                echo "<div class=\"recept\">
+                      
+                      <h5>Recept ID:</h5>                 
+                      $recept->receptID<br />
+                      <h5>Patient ID:</h5>
+                      $recept->patientenID<br />
+                      <h5>Medicijn ID:</h5>
+                      $recept->medicijnID<br />
+                      <h5>Dosis:</h5>
+                      $recept->medicijnDosis<br />
+                      <h5>Duur:</h5>
+                      $recept->medicijnDuur<br />
+                      <h5>Herhalingen:</h5>
+                      $recept->receptHerhalingen<br />
+                      <h5>Uitgeschreven:</h5>
+                      $recept->receptUitgeschreven<br />
+                      <h5>Opgehaald:</h5>
+                      $recept->receptOpgehaald<br />
+                      <h5>Arts ID:</h5>
+                      $recept->artsID<br />
+                      
+ 
+                      <form action='index.php' method='post'>
+                       <input type='hidden' name='showForm' value='$recept->receptenID'><input type='submit' value='wijzigen'/></form>
+                        <form action='index.php' method='post'>
+                       <input type='hidden' name='delete' value='$recept->receptenID'><input type='submit' value='verwijderen'/></form>
+                    </div>";
+            }
+        } else {
+            echo "Geen recepten gevonden";
+        }
+        echo "</div>";
+    }
+    public function showFormRecepten($receptID = null)
+    {
+        if ($receptID != null && $receptID != 0) {
+            $recept = $this->model->selectRecept($receptID);
+        }
+        /*de html template */
+        echo "<!DOCTYPE html>
+        <html lang=\"en\">
+        <head>
+            <meta charset=\"UTF-8\">
+            <title>Beheer receptengegevens</title>
+        </head><body>
+        <h2>Formulier receptgegevens</h2>
+        ";
+
+
+
+        if (isset($recept)) {
+            echo "<form method='post' >
+        <table>
+            <tr><td></td><td>
+            <input type=\"hidden\" name=\"receptID\" value='$receptID'/></td></tr>
+             <tr><td>   <label for=\"receptID\">Recept ID</label></td><td>
+                <input type=\"text\" name=\"receptID\" value= '" . $receptID->receptenID . "'/></td></tr>
+            <tr><td>
+            <input type=\"hidden\" name=\"patientID\" value='$patientenID'/></td></tr>
+             <tr><td>   <label for=\"patientID\">Patient ID</label></td><td>
+                <input type=\"text\" name=\"patientID\" value= '" . $patientID->patientID . "'/></td></tr>
+            <tr><td>
+                <input type=\"hidden\" name=\"medicijnID\" value='$medicijnID'/></td></tr>
+             <tr><td>   <label for=\"medicijnID\">Medicijn ID</label></td><td>
+                <input type=\"text\" name=\"medicijnID\" value= '" . $medicijnID->medicijnID . "'/></td></tr>
+            <tr><td>
+                <label for=\"medicijnDosis\">Medicijn Dosis</label></td><td>
+                <input type=\"text\" name=\"medicijnDosis\" value = '" . $medicijnDosis->medicijnWerking . "'/></td></tr>
+            <tr><td>
+             
+                <input type='submit' name='update' value='opslaan'></td><td>
+            </td></tr></table>
+            </form>
+        </body>
+        </html>";
+        } else {
+            /*de html template */
+            echo "<form method='post' action='index.php'>
+        <table>
+            <tr><td></td><td>
+                <input type=\"hidden\" name=\"receptID\" value=''/></td></tr>
+             <tr><td>   <label for=\"receptID\">Recept Naam</label></td><td>
+                <input type=\"text\" name=\"receptID\" value= ''/></td></tr>
+            <tr><td>
+                <label for=\"patientID\">Patient ID</label></td><td>
+                <input type=\"text\" name=\"patientID\" value = ''/></td></tr>
+            <tr><td>
+                <label for=\"medicijnID\">Medicijn ID</label></td><td>
+                <input type=\"text\" name=\"medicijnID\" value= ''/></td></tr>
+            <tr><td>
+            <label for=\"medicijnDosis\">Medicijn Dosis</label></td><td>
+                <input type=\"text\" name=\"medicijnDosis\" value= ''/></td></tr>
             <tr><td>
                 <input type='submit' name='create' value='opslaan'></td><td>
             </td></tr></table>
