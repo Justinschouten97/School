@@ -1,0 +1,14 @@
+*{
+
+    /*color: white;*/
+}
+
+body{
+background: url("../img/bg5.jpg") no-repeat; width: 100%; height: 100vh;
+}
+
+#titleRegForm, #fullname, #username, #email, #age,
+#dob, #gender, #titleDesigantion, #soortarts, #bio, #password, #passwordConfirm
+{
+    color: white;
+}
