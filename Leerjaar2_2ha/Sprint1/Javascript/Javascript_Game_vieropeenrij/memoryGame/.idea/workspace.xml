@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ea9302a-5adf-481b-9e9c-ededc6f86f12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/Game2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/js/model/VierModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/js/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game4/js/view/VierView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/memoryGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/.idea/memoryGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/css/memory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/images/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/js/model/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/js/model/MemoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/js/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memoryGame/js/view/MemoryView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/js/controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/js/controller/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/js/model/VierModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/js/model/VierModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1j8dQ39apfmvudzsibvHwpvsCQk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ea9302a-5adf-481b-9e9c-ededc6f86f12" name="Default Changelist" comment="" />
+      <created>1603189632653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603189632653</updated>
+      <workItem from="1603189633855" duration="3217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

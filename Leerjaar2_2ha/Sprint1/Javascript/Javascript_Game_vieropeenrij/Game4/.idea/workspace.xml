@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c574c329-762b-4e0e-a99d-03be3846c334" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Game2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/VierModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/view/VierView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/memoryGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/.idea/memoryGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/css/memory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/images/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/js/model/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/js/model/MemoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/js/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memoryGame/memoryGame/js/view/MemoryView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/js/controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/js/controller/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game3/js/model/VierModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Game3/js/model/VierModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/../PHPdeel1/Hoofdstuk_4/hoofdstuk_4_opdr_12.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1imhYi755MzT224y8pZXgphA7Ky" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../memoryGame" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game4\js" />
+      <recent name="C:\Users\JScho\PhpstormProjects\School\Leerjaar2_2ha\Sprint1\Game3\js" />
+      <recent name="C:\Users\JScho\PhpstormProjects\Game2" />
+      <recent name="C:\Users\JScho\PhpstormProjects\Game2\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JScho\PhpstormProjects\Game2\css" />
+      <recent name="C:\Users\JScho\PhpstormProjects\Game2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c574c329-762b-4e0e-a99d-03be3846c334" name="Default Changelist" comment="" />
+      <created>1602518723711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602518723711</updated>
+      <workItem from="1602518724929" duration="2079000" />
+      <workItem from="1602523142253" duration="1274000" />
+      <workItem from="1602688073811" duration="17748000" />
+      <workItem from="1602763007878" duration="4818000" />
+      <workItem from="1602774360444" duration="13870000" />
+      <workItem from="1602831587015" duration="305000" />
+      <workItem from="1602849171247" duration="635000" />
+      <workItem from="1602849840731" duration="1784000" />
+      <workItem from="1603129881011" duration="1358000" />
+      <workItem from="1603148846973" duration="6152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602774896536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602774896536" />
+    <state x="65" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603148492631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="65" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1603148492631" />
+    <state x="115" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602765326242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="115" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602765326242" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603189629877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603189629877" />
+    <state x="886" y="190" key="run.anything.popup" timestamp="1602774872059">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="886" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602774872059" />
+  </component>
+</project>

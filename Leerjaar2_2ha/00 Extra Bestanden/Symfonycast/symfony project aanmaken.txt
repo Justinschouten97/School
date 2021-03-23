@@ -1,0 +1,13 @@
+Alles in vmware:
+
+1 installeer composer
+
+2 composer create-project symfony/website-skeleton the_spacebar 4.* (uitvoeren in htdocs)
+
+3 composer require server 
+
+4 php ./bin/console server:run
+
+5 open chrome =>localhost:8000
+
+6 update PhpStorm => install symfony plugin
