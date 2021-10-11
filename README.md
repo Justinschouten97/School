@@ -1,3 +1,1 @@
-# School
-
 # Alleen School opdrachten
